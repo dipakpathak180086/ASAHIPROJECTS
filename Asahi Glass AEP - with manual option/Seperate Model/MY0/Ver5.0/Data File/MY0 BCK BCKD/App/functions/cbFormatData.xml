@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="cbFormatData" type=""><![CDATA[function(format,action,start,bCompleted,sErr)
+  local localDate = sa.ldate("%d",date)
+  local localShift = ""
+  local H = tonumber(sa.ldate("%H",date))
+  
+  if H >= 6 and H < 14 then
+    localShift = "A" 
+  elseif H >= 14 and H < 22 then
+    localShift = "B"
+  else
+    localShift = "C"
+  end
+
+  if FirstSinceFmt then    
+    -- Skip first calls after cbMenuFormat
+    if start == false then      
+      if tostring(localDate) == tostring(CurrentDate) then
+        if tostring(localShift) == tostring(CurrentShift) then
+        else
+          Counter=0
+          CurrentShift = localShift
+          Reset()
+        end
+      else
+        if tostring(localShift) == tostring(CurrentShift) then
+        else
+            Counter=0
+            CurrentShift = localShift
+            Reset()
+        end
+          --reset variable to current date
+          CurrentDate = sa.ldate("%d",date)
+          CurrentMonth = sa.ldate("%m",date)
+          CurrentYear = sa.ldate("%Y",date)
+          CurrentShift = localShift
+        end
+     
+      if(IsManualSerial == true) then
+        Counter = sa.input("Enter Serial No.",Counter,"%4d")--Allow only 4 digit to input
+      else
+        Counter = Counter + 1 
+      end
+      
+       local ShowCounter = string.format("%04d", Counter)
+       
+       
+       local DateData = tostring(CurrentYear)..tostring(CurrentMonth)..tostring(CurrentDate)
+       local GuiDate = tostring(CurrentDate).."-"..tostring(CurrentMonth).."-"..tostring(CurrentYear)
+
+       local ShowModelValue = sa.select("Details",{"Part No. : "..tostring(CurrentModelName),"Model Name : "..tostring(SelectedModel),"Shift : "..tostring(CurrentShift),"Date : "..GuiDate,tostring(ShowCounter)},nil,false)
+       -- if back button is pressed then don't print
+       if ShowModelValue == nil then        
+        --sa.msg("Don't go forward")
+        return
+       end
+       
+      local H = tonumber(sa.ldate("%H",date))
+       
+      if H >= 6 and H < 14 then
+        localShift = "A" 
+      elseif H >= 14 and H < 22 then
+        localShift = "B"
+      else
+      localShift = "C"
+      end
+
+       --Start New Code Added
+       localDate = sa.ldate("%d",date)
+      if tostring(localDate) == tostring(CurrentDate)  then
+        if tostring(localShift) == tostring(CurrentShift) then
+        else
+          Counter=1
+          CurrentShift = localShift
+          Reset()
+        end
+      else
+        if tostring(localShift) == tostring(CurrentShift) then
+        else
+          Counter=1
+          CurrentShift = localShift
+          Reset()
+        end
+          --reset variable to current date
+          CurrentDate = sa.ldate("%d",date)
+          CurrentMonth = sa.ldate("%m",date)
+          CurrentYear = sa.ldate("%Y",date)  
+          CurrentShift = localShift
+      end
+      --End New Coode Added
+      
+       ShowCounter = string.format("%04d", Counter)    
+       DateData = tostring(CurrentDate)..tostring(CurrentMonth)..tostring(sa.ldate("%y",date))
+       TimeData = tostring(sa.ldate("%H",date))..tostring(sa.ldate("%M",date))..tostring(sa.ldate("%S",date))
+       
+       Format.MODELNAME.data= CurrentModelName
+       Format.MODELNAME.value = Format.MODELNAME.data
+        
+       Format.BARCODE.data= tostring(ShowCounter) 
+       Format.BARCODE.value=Format.BARCODE.data
+       
+       Format.MName.data= tostring(SelectedModel)  
+       Format.MName.value=Format.MName.data
+      
+
+       Format.QR.data= tostring(CurrentModelName)..DateData..TimeData..CurrentShift.."A144"..tostring(ShowCounter) 
+       Format.QR.value=Format.QR.data
+       sa.quantity(1)
+      if(IsManualSerial == false) then
+       --Write Counter in the file
+       fp = io.open("/ffs/data/data.txt", "w")
+      if fp  then
+  	     fp:write(Counter,"\n")
+        --write current datemonth in file
+        local FileDateMonth = tostring(CurrentDate)..tostring(CurrentMonth)
+         fp:write(FileDateMonth,"\n")
+        --writer current shift
+         fp:write(CurrentShift,"\n")
+        --write Current Model in the file
+       if tostring(SelectedModel)==tostring(Model1) then --Model1
+         fp:write(tostring(SelectedModel)..","..tostring(Counter)..","..tostring(Model1Name),"\n")
+       else
+         fp:write(tostring(Model1)..","..tostring(Model1Counter)..","..tostring(Model1Name),"\n")
+       end
+       
+       if tostring(SelectedModel)==tostring(Model2) then --Model2
+         fp:write(tostring(SelectedModel)..","..tostring(Counter)..","..tostring(Model2Name),"\n")
+       else
+         fp:write(tostring(Model2)..","..tostring(Model2Counter)..","..tostring(Model2Name),"\n")
+       end
+       
+       if tostring(SelectedModel)==tostring(Model3) then --Model3
+         fp:write(tostring(SelectedModel)..","..tostring(Counter)..","..tostring(Model3Name),"\n")
+       else
+         fp:write(tostring(Model3)..","..tostring(Model3Counter)..","..tostring(Model3Name),"\n")
+       end
+       
+         fp:close()
+      end
+      end
+    end 
+    
+  end
+
+end
+]]></function>

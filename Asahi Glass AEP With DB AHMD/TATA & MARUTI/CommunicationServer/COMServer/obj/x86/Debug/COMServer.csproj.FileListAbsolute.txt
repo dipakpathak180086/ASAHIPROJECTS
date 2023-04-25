@@ -1,0 +1,11 @@
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\CommunicationServer\COMServer\bin\x86\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\CommunicationServer\COMServer\bin\x86\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommunicationServer\COMServer\bin\x86\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\x86\Debug\COMServer.csprojAssemblyReference.cache

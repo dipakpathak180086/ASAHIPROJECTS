@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fnc xmlns="TH2_FNC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="TH2_FNC fnc/fnc.xsd">
+  <node name="fnc" title="F1" use="true">
+    <lua>function(self) return menu.menu(self) end</lua>
+    <node name="print" title="Print Copy" use="true">
+      <lua>function(self) menu.printCopy() end</lua>
+    </node>
+    <node name="symbols" title="Symbols" use="true">
+      <lua>function(self) return menu.symbols(self) end</lua>
+    </node>
+    <node name="preview" title="Preview" use="false">
+      <lua>function(self) menu.preview() end</lua>
+    </node>
+    <node name="timeoffset" title="Time Offset" use="true">
+      <lua>function(self) return menu.timeOffset(self) end</lua>
+    </node>
+    <node name="profile" title="Profile" use="true">
+      <lua>function(self) return  config._setupSCSelectProfile()    end</lua>
+    </node>
+    <node name="setup" title="Setup/" use="false">
+      <lua>function(self) return menu.menu(self) end</lua>
+      <node name="date" title="Date" use="false">
+        <lua>function(self) return config._setupSCDate() end</lua>
+      </node>
+      <node name="time" title="Time" use="false">
+        <lua>function(self) return config._setupSCTime() end</lua>
+      </node>
+      <node name="locale" title="Locale" use="false">
+        <lua>function(self) return config._setupSCLocale() end</lua>
+      </node>
+      <node name="language" title="Language" use="false">
+        <lua>function(self) return config._setupSCMessages() end</lua>
+      </node>
+      <node name="keyboard" title="Keyboard" use="false">
+        <lua>function(self) return config._setupSCKeyboard() end</lua>
+      </node>
+      <node name="application" title="Start App." use="false">
+        <lua>function(self) return config._setupSCStartApp() end</lua>
+      </node>
+      <node name="password" title="Password" use="false">
+        <lua>function(self) return config._setupSCChangePW() end</lua>
+      </node>
+      <node name="calibrate" title="Calibrate" use="false">
+        <lua>function(self) return config._setupSCCalibrate() end</lua>
+      </node>
+    </node>
+    <node name="info" title="Info" use="true">
+      <lua>function(self) config.testInfo() end</lua>
+    </node>
+    <node name="Backup" title="Backup" use="false">
+      <lua>function(self) return sa.copyToCard() end</lua>
+    </node>
+  </node>
+</fnc>

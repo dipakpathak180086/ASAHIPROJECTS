@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="ReadData" type=""><![CDATA[function()
+  if resolver then return "ReadData" end -- for breaking loops/detecting in AEPWorks
+	-- write your code here...
+  FRONT_PATH = "/media/usb_front/data.txt"
+  REAR_PATH  = "/media/usb_rear/data.txt"
+  DATA_PATH    = "/ffs/data/data.txt"   --Master data
+  
+  
+  --Update data when find it in USB drive
+  local front_chksum = fs.chksum(FRONT_PATH, "RIPEMD")
+  local rear_chksum = fs.chksum(REAR_PATH, "RIPEMD")
+    if front_chksum and (front_chksum ~= db_chksum) then  
+      fs.copy(FRONT_PATH, DATA_PATH)
+      data_chksum = true
+      sa.msg("Data updated.", nil, 2)
+      ReadyToPrint = false
+    elseif rear_chksum and (rear_chksum ~= db_chksum) then
+      fs.copy(REAR_PATH, DATA_PATH)
+      data_chksum = true
+      sa.msg("Data updated.", nil, 2)
+      ReadyToPrint = false
+    --else
+      --sa.msg("No DB copy")
+    end
+  data_chksum = fs.chksum(DATA_PATH, "RIPEMD")
+  if data_chksum == nil then
+    sa.msg("Can't find data! Please plug-in usb drive with data.txt and try again.")
+    dprint("Main abort")
+    sa.quantity(0)
+    sa.abort(true)
+    return nil
+  end
+ 
+  
+  
+  return ""
+end
+]]></function>

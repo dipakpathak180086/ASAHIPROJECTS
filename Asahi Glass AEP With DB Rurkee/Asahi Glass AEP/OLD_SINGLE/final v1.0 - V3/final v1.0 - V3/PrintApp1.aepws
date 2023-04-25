@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace firmware="1.6.3-15300" update="printer" packagename="PrintAEPApp.pkg" appname="PrintApp2.0" compress="True" lockall="True" addprescript="True" protect="False">
+  <ConfigItem path="System\local_fnc.xml.lcx" />
+  <ConfigItem path="System\local_configApp.xml.lcx" />
+  <Item path="functions\Start.xml" />
+  <Item path="formats\Format2.xml" />
+  <ImportedItem path="imported\data.txt" vpath="/ffs/data.txt" />
+  <Item path="functions\PrintBarcode2.xml" />
+  <Item path="functions\cbMenuFormat.xml" />
+  <Item path="functions\PrintBarcode.xml" />
+  <ConfigItem path="System\local_configTbl.xml" />
+  <Item path="images\AIS-logo.bmp" />
+  <Item path="fonts\Calibri.ttf" />
+  <Item path="fonts\calibrib.ttf" />
+  <Item path="fonts\calibril.ttf" />
+</Workspace>

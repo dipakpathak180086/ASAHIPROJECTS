@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<format name="Format2" design_width="480" design_height="240">
+  <field name="QR" vPos="51" hPos="80" fieldtype="barcode" barcode="qrcode" cellSize="6" value="text" formatter="return string.format(Field.format,Value)" />
+  <field name="MODELNAME" hPos="220" vPos="63" fieldtype="text" size="10" value="89019M62S01" formatter="return string.format(Field.format,Value)" />
+  <field name="BARCODE" hPos="220" vPos="113" fieldtype="text" size="10" value="text" formatter="return sa.ldate(Field.dateformat,Value)" dateformat="%H:%M:%S" />
+</format>

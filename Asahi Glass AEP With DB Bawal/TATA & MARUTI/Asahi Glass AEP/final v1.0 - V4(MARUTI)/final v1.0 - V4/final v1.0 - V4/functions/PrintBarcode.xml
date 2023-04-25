@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="PrintBarcode" type=""><![CDATA[function(format)
+	-- if resolver then return end -- for breaking loops/detecting in AEPWorks
+	-- write your code here..
+-- if resolver then return end -- for breaking loops/detecting in AEPWorks
+	-- write your code here..
+  if resolver then 
+    return json.encode("returns")
+  end  
+  if FirstSinceFmt==false then
+     sa.quantity(0)
+     return
+  end
+  local Http_Status_Ok = 200
+ 
+  
+   local http = require("socket.http") -- Loads the HTTP module
+      --call api
+          if tostring(SelectedModel)=="" then
+             sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+             return false
+          else
+               local EnterQty = 0
+               
+               
+               EnterQty=sa.input("Model:("..tostring(SelectedModel)..") Qty:",PrintQty,"%u","",true) -- input unsigned intergar only
+               
+               --sa.displayText("Model:("..tostring(SelectedModel)..")","Qty: "..tostring(PrintQty)) -- input unsigned intergar only
+                
+                if tostring(EnterQty) == "" or tonumber(EnterQty) == 0 then
+                  sa.msg("Enter Qty")
+                  sa.quantity(0)
+                  return false
+               end
+               if tonumber(EnterQty)~= tonumber(PrintQty) then
+                  sa.msg("Enter Qty is not matched")
+                  sa.quantity(0)
+                  return false
+               end
+             
+             
+              local ApiUrl = "http://"..tostring(ServerIp).."/asahi/api/service/Save/" .. tostring(SelectedModel).."/" ..tostring(EnterQty).."/" ..tostring(PrinterIp)
+              --sa.msg(tostring(ApiUrl))
+              local responseDataSave, statusCodeSave = http.request(ApiUrl)
+              if(statusCodeSave ~= Http_Status_Ok) then
+                sa.msg("Error Status:"..tostring(statusCodeSave))
+                sa.msg("Error message "..tostring(responseDataSave))
+                sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+                return
+              end
+              
+              -- if everything is fine then decode json data
+              local jsonProduction = json.decode(responseDataSave)
+              --sa.msg(tostring(jsonProduction.Response))
+              --sa.msg(tostring(Customer))
+              if(jsonProduction.Response == "Y") then
+                --set barcode data
+                
+                if (tostring(Customer)=="MARUTI") then
+                  --sa.msg(tostring(jsonProduction.SerialNo))
+                  --sa.msg(tostring(jsonProduction.PartName))
+                  Format.BARCODE.data = jsonProduction.Barcode
+                  Format.BARCODE.value = Format.BARCODE.data 
+                  Format.Model.data = tostring(SelectedModel)
+                  Format.Model.value = Format.Model.data
+                  Format.SrNo.data = jsonProduction.SerialNo
+                  Format.SrNo.value = Format.SrNo.data
+                  Format.PartNo.data = jsonProduction.PartName
+                  Format.PartNo.value = Format.PartNo.data
+                  --sa.msg(tostring(Customer))
+                  sa.quantity(EnterQty) 
+                  return
+                end
+              end
+          end
+   
+end
+]]></function>

@@ -1,0 +1,287 @@
+
+[Log Startup at 09:26:05]
+2021-11-09 09:26:05.511 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2021-11-09 09:26:05.625 (Info) Server.StartService - Starting ClientServices...
+2021-11-09 09:26:05.731 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2021-11-09 09:26:05.838 (Info) ClientService.Start - Client threads on server: 50.
+2021-11-09 09:26:05.946 (Info) Server.StartService - Create new listener on server...
+2021-11-09 09:26:06.053 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2021-11-09 09:26:06.164 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2021-11-09 09:26:06.272 (Info) Server.Listener.Start - Starting listener...
+2021-11-09 09:26:06.382 (Info) Server.Listener - Server started on port 9100
+2021-11-09 09:28:53.533 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:28:53.646 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:28:53.756 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:28:53.866 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=V_USER~admin~1
+2021-11-09 09:28:58.944 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~Admin~1~Admin
+2021-11-09 09:28:59.272 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:28:59.380 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:28:59.488 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:28:59.600 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=GET_USER_RIGHT~Admin
+2021-11-09 09:29:00.143 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~101#102#103#104#105#106#201#202
+2021-11-09 09:29:03.981 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:04.088 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:04.196 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:04.304 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~BIND_PARTNO~~~~~Admin
+2021-11-09 09:29:04.415 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~dd#dfsd#FG.TCB.LFH.GCG2120000#FG.TCF.LFH.GCG2120000#FG.TCF.LFH.GCG2120001#Interna001#s
+2021-11-09 09:29:08.937 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:09.046 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:09.155 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:09.262 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~BIND_VIEW~FG.TCB.LFH.GCG2120000~~~~Admin
+2021-11-09 09:29:09.371 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~$4$0
+2021-11-09 09:29:09.484 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:09.594 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:09.704 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:09.817 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~BIND_TOTAL_AND_SCAN_QTY~FG.TCB.LFH.GCG2120000~~~~Admin
+2021-11-09 09:29:09.930 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~4$0$Windshield
+2021-11-09 09:29:18.211 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:18.322 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:18.431 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:18.541 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~VALIDATEPALLET~FG.TCB.LFH.GCG2120000~ddjs~gdhd~~Admin
+2021-11-09 09:29:18.648 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~NOTEXISTS$
+2021-11-09 09:29:23.745 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:23.858 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:23.966 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:24.085 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~SAVE~FG.TCB.LFH.GCG2120000~ddjs~gdhd~hhhh~Admin
+2021-11-09 09:29:24.198 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=INVALID~INVALID BARCODE SCANNED (hhhh) AGAINST PART NO (FG.TCB.LFH.GCG2120000)
+2021-11-09 09:29:29.284 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:29.394 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:29.505 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:29.616 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~SAVE~FG.TCB.LFH.GCG2120000~ddjs~gdhd~hdhd~Admin
+2021-11-09 09:29:29.728 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=INVALID~INVALID BARCODE SCANNED (hdhd) AGAINST PART NO (FG.TCB.LFH.GCG2120000)
+2021-11-09 09:29:37.520 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:37.631 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:37.743 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:37.855 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~hdhd~Admin
+2021-11-09 09:29:37.963 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=ERROR~Cannot find table 0.
+2021-11-09 09:29:43.022 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:29:43.131 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:29:43.239 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:29:43.349 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~gg~Admin
+2021-11-09 09:29:43.459 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=ERROR~Cannot find table 0.
+2021-11-09 09:30:00.459 (Info) Server.StopService - Stopping client services...
+2021-11-09 09:30:00.566 (Info) ClientService.Stop - Stopping thread service...
+2021-11-09 09:30:00.676 (Info) ClientService.Stop - Thread pool stopped.
+2021-11-09 09:30:00.785 (Info) ClientService.Stop - Stop client connections 10 active connections.
+2021-11-09 09:30:00.894 (Info) ClientHandler.Close - Duration: 00:01:01.2365958
+2021-11-09 09:30:01.003 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:01.114 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:01.224 (Info) ClientHandler.Close - Duration: 00:00:51.5914009
+2021-11-09 09:30:01.336 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:01.446 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:01.554 (Info) ClientHandler.Close - Duration: 00:00:36.7493289
+2021-11-09 09:30:01.663 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:01.773 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:01.884 (Info) ClientHandler.Close - Duration: 00:00:17.4720592
+2021-11-09 09:30:01.996 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:02.109 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:02.218 (Info) ClientHandler.Close - Duration: 00:00:56.5411923
+2021-11-09 09:30:02.329 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:02.437 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:02.547 (Info) ClientHandler.Close - Duration: 00:00:51.3857566
+2021-11-09 09:30:02.657 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:02.766 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:02.874 (Info) ClientHandler.Close - Duration: 00:00:23.0063668
+2021-11-09 09:30:02.985 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:03.096 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:03.206 (Info) ClientHandler.Close - Duration: 00:01:06.9806296
+2021-11-09 09:30:03.317 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:03.427 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:03.539 (Info) ClientHandler.Close - Duration: 00:00:42.3119724
+2021-11-09 09:30:03.649 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:03.761 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:03.872 (Info) ClientHandler.Close - Duration: 00:00:31.2093168
+2021-11-09 09:30:03.983 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 09:30:04.095 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 09:30:04.204 (Info) Server.ClientTask.Stop - Completed successfully.
+2021-11-09 09:30:04.313 (Info) Server.StopService.Listener.Stop - Initiating listener stop....
+2021-11-09 09:30:04.423 (Info) Server.StopService.Listener.Stop -  successfull.
+2021-11-09 09:30:04.533 (Info) Server.ListenerThread.Join - Completed.
+2021-11-09 09:30:04.642 (Info) Server.StopService - Uptime: 0 days 0 hours 3 minutes 55 seconds.
+2021-11-09 09:30:04.751 (Info) EventServer.StopService - Sending Signal to Stop Event Service
+
+[Log Startup at 09:33:13]
+2021-11-09 09:33:13.514 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2021-11-09 09:33:13.639 (Info) Server.StartService - Starting ClientServices...
+2021-11-09 09:33:13.745 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2021-11-09 09:33:14.068 (Info) ClientService.Start - Client threads on server: 50.
+2021-11-09 09:33:14.179 (Info) Server.StartService - Create new listener on server...
+2021-11-09 09:33:14.289 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2021-11-09 09:33:14.399 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2021-11-09 09:33:14.512 (Info) Server.Listener.Start - Starting listener...
+2021-11-09 09:33:14.621 (Info) Server.Listener - Server started on port 9100
+2021-11-09 09:33:17.344 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:33:26.688 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:33:27.603 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:33:28.015 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~gg~Admin
+2021-11-09 09:36:04.752 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=ERROR~Cannot find table 0.
+2021-11-09 09:41:55.963 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:41:56.237 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:41:56.526 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:41:56.854 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~hh~Admin
+
+[Log Startup at 09:44:45]
+2021-11-09 09:44:45.245 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2021-11-09 09:44:45.349 (Info) Server.StartService - Starting ClientServices...
+2021-11-09 09:44:45.450 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2021-11-09 09:44:45.966 (Info) ClientService.Start - Client threads on server: 50.
+2021-11-09 09:44:46.073 (Info) Server.StartService - Create new listener on server...
+2021-11-09 09:44:46.180 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2021-11-09 09:44:46.311 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2021-11-09 09:44:46.611 (Info) Server.Listener.Start - Starting listener...
+2021-11-09 09:44:46.718 (Info) Server.Listener - Server started on port 9100
+2021-11-09 09:44:46.826 (Info) Server.StopService - Stopping client services...
+2021-11-09 09:44:46.937 (Info) ClientService.Stop - Stopping thread service...
+2021-11-09 09:44:47.044 (Info) ClientService.Stop - Thread pool stopped.
+2021-11-09 09:44:47.153 (Info) ClientService.Stop - Stop client connections 0 active connections.
+2021-11-09 09:44:47.263 (Info) Server.ClientTask.Stop - Completed successfully.
+2021-11-09 09:44:47.371 (Info) Server.StopService.Listener.Stop - Initiating listener stop....
+2021-11-09 09:44:47.477 (Info) Server.StopService.Listener.Stop -  successfull.
+2021-11-09 09:44:47.586 (Info) Server.ListenerThread.Join - Completed.
+2021-11-09 09:44:47.695 (Info) Server.StopService - Uptime: 0 days 0 hours 0 minutes 1 seconds.
+2021-11-09 09:44:47.803 (Info) EventServer.StopService - Sending Signal to Stop Event Service
+
+[Log Startup at 09:46:13]
+2021-11-09 09:46:13.765 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2021-11-09 09:46:13.870 (Info) Server.StartService - Starting ClientServices...
+2021-11-09 09:46:13.974 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2021-11-09 09:46:14.187 (Info) ClientService.Start - Client threads on server: 50.
+2021-11-09 09:46:14.295 (Info) Server.StartService - Create new listener on server...
+2021-11-09 09:46:14.405 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2021-11-09 09:46:14.513 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2021-11-09 09:46:14.622 (Info) Server.Listener.Start - Starting listener...
+2021-11-09 09:46:14.729 (Info) Server.Listener - Server started on port 9100
+2021-11-09 09:46:16.243 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:46:19.432 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:46:19.749 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:46:20.054 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~h~Admin
+2021-11-09 09:46:35.262 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=ERROR~Cannot find table 0.
+2021-11-09 09:46:42.155 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:46:59.839 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:47:00.097 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:47:00.345 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~h~Admin
+2021-11-09 09:49:08.076 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~FG.TCB.LFH.GCG2120000$002829671001010921KOA65688000001$PRINT
+2021-11-09 09:49:23.000 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:49:27.056 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:49:27.460 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:49:28.021 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~h~Admin
+2021-11-09 09:49:42.451 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=ERROR~Cannot find table 0.
+2021-11-09 09:50:38.637 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:50:38.861 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:50:39.068 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:50:39.245 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~h~Admin
+2021-11-09 09:50:47.987 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=INVALID~Barcode not exists in database
+2021-11-09 09:50:55.067 (Info) Server.Listener - New client connection detected...
+2021-11-09 09:51:18.338 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 09:51:18.519 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 09:51:18.702 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~f~Admin
+2021-11-09 09:51:23.482 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~FG.TCB.LFH.GCG2120000$002829671001010921KOA65688000005$PRINT
+
+[Log Startup at 10:16:27]
+2021-11-09 10:16:27.983 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2021-11-09 10:16:28.099 (Info) Server.StartService - Starting ClientServices...
+2021-11-09 10:16:28.218 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2021-11-09 10:16:28.331 (Info) ClientService.Start - Client threads on server: 50.
+2021-11-09 10:16:28.446 (Info) Server.StartService - Create new listener on server...
+2021-11-09 10:16:28.547 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2021-11-09 10:16:28.651 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2021-11-09 10:16:28.772 (Info) Server.Listener.Start - Starting listener...
+2021-11-09 10:16:28.873 (Info) Server.Listener - Server started on port 9100
+2021-11-09 10:17:47.298 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:17:47.421 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:17:47.537 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:17:47.637 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=V_USER~admin~1
+2021-11-09 10:17:49.026 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~Admin~1~Admin
+2021-11-09 10:17:49.243 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:17:49.358 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:17:49.459 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:17:49.560 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=GET_USER_RIGHT~Admin
+2021-11-09 10:17:49.661 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~101#102#103#104#105#106#201#202
+2021-11-09 10:17:50.679 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:17:50.794 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:17:50.910 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:17:51.011 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~BIND_PARTNO~~~~~Admin
+2021-11-09 10:17:51.111 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~dd#dfsd#FG.TCB.LFH.GCG2120000#FG.TCF.LFH.GCG2120000#FG.TCF.LFH.GCG2120001#Interna001#s
+2021-11-09 10:17:55.278 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:17:55.395 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:17:55.495 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:17:55.611 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~ff~Admin
+2021-11-09 10:17:55.712 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=INVALID~Barcode not exists in database
+2021-11-09 10:18:52.934 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:18:53.050 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:18:53.166 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:18:53.277 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~12~Admin
+2021-11-09 10:18:53.382 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~FG.TCB.LFH.GCG2120000$12$PRINT
+2021-11-09 10:20:24.996 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:20:25.118 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:20:25.220 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:20:25.335 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=BARCODESTATUS~VALIDATEBARCODE~qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmaqwertyuiopsdfgjkhdbdjejdgsjrbrhrhdbdhdkrhdhrbeh~Admin
+2021-11-09 10:20:25.451 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=INVALID~Barcode not exists in database
+2021-11-09 10:20:30.124 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:20:30.225 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:20:30.347 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:20:30.449 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~BIND_PARTNO~~~~~Admin
+2021-11-09 10:20:30.550 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~dd#dfsd#FG.TCB.LFH.GCG2120000#FG.TCF.LFH.GCG2120000#FG.TCF.LFH.GCG2120001#Interna001#s
+2021-11-09 10:21:26.033 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:21:26.149 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:21:26.265 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:21:26.388 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~BIND_VIEW~dfsd~~~~Admin
+2021-11-09 10:21:26.503 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~$3$0
+2021-11-09 10:21:26.607 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:21:26.723 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:21:26.837 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:21:26.938 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~BIND_TOTAL_AND_SCAN_QTY~dfsd~~~~Admin
+2021-11-09 10:21:27.039 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~3$0$sddf
+2021-11-09 10:21:31.266 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:21:31.366 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:21:31.466 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:21:31.582 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~VALIDATEPALLET~dfsd~d~d~~Admin
+2021-11-09 10:21:31.704 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=VALID~NOTEXISTS$
+2021-11-09 10:21:34.344 (Info) Server.Listener - New client connection detected...
+2021-11-09 10:21:34.460 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-09 10:21:34.560 (Info) ClientHandler.Initialize - Connected client : 192.168.43.153
+2021-11-09 10:21:34.676 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Mesg=PALLETMAPPING~SAVE~dfsd~d~d~d~Admin
+2021-11-09 10:21:34.791 (Data) ClientHandler.ProcessData - IP=192.168.43.153 Resp=INVALID~INVALID BARCODE SCANNED (d) AGAINST PART NO (dfsd)
+2021-11-09 10:21:58.935 (Info) Server.StopService - Stopping client services...
+2021-11-09 10:21:59.051 (Info) ClientService.Stop - Stopping thread service...
+2021-11-09 10:21:59.151 (Info) ClientService.Stop - Thread pool stopped.
+2021-11-09 10:21:59.251 (Info) ClientService.Stop - Stop client connections 11 active connections.
+2021-11-09 10:21:59.353 (Info) ClientHandler.Close - Duration: 00:00:27.8169651
+2021-11-09 10:21:59.469 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:21:59.569 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:21:59.669 (Info) ClientHandler.Close - Duration: 00:03:06.1163546
+2021-11-09 10:21:59.770 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:21:59.886 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:00.002 (Info) ClientHandler.Close - Duration: 00:01:28.8891770
+2021-11-09 10:22:00.118 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:00.219 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:00.340 (Info) ClientHandler.Close - Duration: 00:00:24.7532184
+2021-11-09 10:22:00.441 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:00.541 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:00.657 (Info) ClientHandler.Close - Duration: 00:04:03.8035893
+2021-11-09 10:22:00.757 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:00.858 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:00.974 (Info) ClientHandler.Close - Duration: 00:04:11.7146717
+2021-11-09 10:22:01.090 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:01.191 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:01.321 (Info) ClientHandler.Close - Duration: 00:00:32.8167465
+2021-11-09 10:22:01.430 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:01.537 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:01.649 (Info) ClientHandler.Close - Duration: 00:00:33.0328530
+2021-11-09 10:22:01.759 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:01.866 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:01.976 (Info) ClientHandler.Close - Duration: 00:04:08.3341614
+2021-11-09 10:22:02.092 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:02.207 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:02.319 (Info) ClientHandler.Close - Duration: 00:01:33.9857613
+2021-11-09 10:22:02.423 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:02.538 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:02.647 (Info) ClientHandler.Close - Duration: 00:04:09.8085252
+2021-11-09 10:22:02.756 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.153
+2021-11-09 10:22:02.864 (Info) ClientHandler.Close - Connection Closed.
+2021-11-09 10:22:02.980 (Info) Server.ClientTask.Stop - Completed successfully.
+2021-11-09 10:22:03.094 (Info) Server.StopService.Listener.Stop - Initiating listener stop....
+2021-11-09 10:22:03.195 (Info) Server.StopService.Listener.Stop -  successfull.
+2021-11-09 10:22:03.310 (Info) Server.ListenerThread.Join - Completed.
+2021-11-09 10:22:03.419 (Info) Server.StopService - Uptime: 0 days 0 hours 5 minutes 31 seconds.
+2021-11-09 10:22:03.528 (Info) EventServer.StopService - Sending Signal to Stop Event Service

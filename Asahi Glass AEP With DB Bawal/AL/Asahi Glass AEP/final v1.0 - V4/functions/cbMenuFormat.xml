@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="cbMenuFormat" type=""><![CDATA[function(format)
+	-- if resolver then return end -- for breaking loops/detecting in AEPWorks
+	-- write your code here..
+-- if resolver then return end -- for breaking loops/detecting in AEPWorks
+	-- write your code here..
+  if resolver then 
+    return json.encode("returns")
+  end  
+  fp = io.open("/ffs/data/data.txt", "r")
+  if fp then
+    --Read Counter from file and store in global variable
+    PrinterIp = fp:read() --For Counter Read
+    fp:close()
+  end
+  if tostring(PrinterIp)=="" then
+     sa.msg("Printer Ip Not Found!!")
+     sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+     return false
+  end
+  
+    Customer="AL"
+  
+  ---sa.msg("Second time Check")
+  local Http_Status_Ok = 200
+  local http = require("socket.http") -- Loads the HTTP module
+      --call api
+     local responseData, statusCode = http.request("http://"..tostring(ServerIp).."/asahial/api/service/GetModel/".. tostring(PrinterIp).."/"..tostring(Customer))
+     
+      if(statusCode ~= Http_Status_Ok) then
+        sa.msg("Error Occured on server side, status code "..tostring(statusCode).." error message "..tostring(responseData))
+        sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+        return false
+      end
+      -- if everything is fine then decode json data
+      local jsonDetails = json.decode(responseData)
+      if(jsonDetails.Response == "Y") then
+          
+         SelectedModel = sa.select ("Select Model",tostring(jsonDetails.PartNo),nil,false) --For temporary added at 01-0ct-21 for two format testing
+         if tostring(SelectedModel)=="" then
+             sa.msg("Select Model")
+             sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+             return false
+          end
+          ModelName = tostring(SelectedModel)
+          local responseData1, statusCode1 = http.request("http://"..tostring(ServerIp).."/asahial/api/service/GetQty/".. tostring(PrinterIp).."/"..tostring(Customer).."/"..tostring(ModelName).."/")
+           if(statusCode1 ~= Http_Status_Ok) then
+            sa.msg("Error Occured on server side, status code "..tostring(statusCode1).." error message "..tostring(responseData1))
+            FirstSinceFmt = false
+            sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+            return false
+           end
+           local jsonDetails1 = json.decode(responseData1)
+            if(jsonDetails1.Response == "Y") then
+               PrintQty=tostring(jsonDetails1.Qty)
+            end
+         
+          --sa.msg(tostring(Format.name))
+      else
+        sa.msg("Invalid Model Data")
+         FirstSinceFmt = false
+        sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+        return false
+      end
+       FirstSinceFmt = true
+   
+end
+]]></function>

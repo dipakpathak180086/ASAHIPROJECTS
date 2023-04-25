@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="Start" type=""><![CDATA[function()
+  -- Global variables
+  Counter = -1 
+  FirstSinceFmt = true
+  CurrentDate = sa.ldate("%d",date)
+  CurrentMonth = sa.ldate("%m",date)
+  CurrentYear = sa.ldate("%Y",date)
+  CurrentShift = ""
+  Model1=""
+  Model2=""
+  Model3=""
+  Model4=""
+  Model5=""
+  Model6=""
+  Model7=""
+  Model8=""
+  Model1Counter=0
+  Model2Counter=0
+  Model3Counter=0
+  Model4Counter=0
+  Model5Counter=0
+  Model6Counter=0
+  Model7Counter=0
+  Model8Counter=0
+  
+  if H >= 6 and H < 14 then
+    CurrentShift = "A" 
+  elseif H >= 14 and H < 22 then
+    CurrentShift = "B"
+  else
+    CurrentShift = "C"
+  end
+end
+]]></function>

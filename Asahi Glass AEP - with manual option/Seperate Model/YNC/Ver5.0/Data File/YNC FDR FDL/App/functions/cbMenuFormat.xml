@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="cbMenuFormat" type=""><![CDATA[function(format)  
+  --SelectedModel = sa.select ("Select Model",{"89019M62S01","89019N62S01","89019S62S01"},nil,false)
+  --SelectedModel = sa.select ("Select Model",{"84501M81R00","84502M81R00","84503M81R00","84504M81R00","84570M81R00","84570M81R10","84051M81R00","84051M81R10","84501M66T00","84502M66T00","84503M66T00","84504M66T00","84570M66T00","84570M66T10","84570M66T20","84051M66T00"},nil,false)
+  SelectedModel = sa.select ("Select Model",{"MC1 FDR","MC1 FDL"},nil,false)
+  
+  --local NewModel = sa.input("Selected Model",SelectedModel)
+  --SelectedModel = NewModel
+  -- Set flag
+   if SelectedModel == nil then        
+        --sa.msg("Don't go forward")
+        return
+   end
+  local newCounter
+  local FileDateMonth = ""
+  local FileShift = ""
+  
+  
+ local H = tonumber(sa.ldate("%H",date))
+  
+  if H >= 6 and H < 14 then
+    CurrentShift = "A" 
+  elseif H >= 14 and H < 22 then
+    CurrentShift = "B"
+  else
+    CurrentShift = "C"
+  end
+  
+  -- Fetch last Counter value from file
+  Counter = 0
+  fp = io.open("/ffs/data/data.txt", "r")
+  if fp then
+    --Read Counter from file and store in global variable
+    Counter = fp:read() --For Counter Read
+    
+    --Read Last dateMonth From The File
+    FileDateMonth = fp:read()  --For DateMonth Read
+     
+      --Read Shift from file
+    FileShift = fp:read() --For Shift Read
+    
+    
+    local CurrentDateMonth = tostring(CurrentDate)..tostring(CurrentMonth)
+    --if file datemonth are same as current then nothing will happen otherwise reset the Counter
+    if  CurrentDateMonth == tostring(FileDateMonth) then
+      if tostring(FileShift) == tostring(CurrentShift) then
+         
+        if tostring(CurrentShift) == "C" and H > 22  then
+           Counter=0
+           Reset()
+        end
+      else
+        Counter=0
+        Reset()
+      end
+    else
+      if tostring(FileShift) == tostring(CurrentShift) then
+        if CurrentMonth==FileDateMonth:sub(3,4) then
+          if ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) > 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) <-1 then
+            if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+            else
+              Counter=0
+              Reset()
+            end
+          end
+          if (((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == -1)  then
+              if tostring(CurrentShift) == "C" and H < 6  then
+              else
+                Counter=0
+                Reset()
+              end
+          end   
+        else
+           if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+           else
+              Counter=0
+              Reset()
+           end
+       end
+      else
+        Counter=0
+        Reset()
+      end
+    end
+  
+    ---local splitTBL = sa.split(Barcode," ") -- split with space
+    local ModelSplit=""
+    local ModelRead=""
+      ModelRead=fp:read()  --Model1
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model1=ModelSplit[1]
+      Model1Counter=tostring(ModelSplit[2])
+      Model1Name=tostring(ModelSplit[3])
+     
+      if ModelSplit[1] ==tostring(SelectedModel) then
+         Counter=Model1Counter
+         CurrentModelName=Model1Name
+    end
+      ModelRead=fp:read()  --Model2
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model2=ModelSplit[1]
+      Model2Counter=ModelSplit[2]
+      Model2Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model2Counter 
+         CurrentModelName=Model2Name 
+     end
+     
+    --Read last model from the file if model from the file and selected model is different then reset Counter
+    --local FileModelNo = fp:read()
+    --if FileModelNo == SelectedModel then
+      --nothing will  happen
+    --else
+      --Reset Counter if model change
+      --Counter = 0
+    --end
+     local CurrentDateMonth = tostring(CurrentDate)..tostring(CurrentMonth)
+    --if file datemonth are same as current then nothing will happen otherwise reset the Counter
+    if  CurrentDateMonth == tostring(FileDateMonth) then
+      if tostring(FileShift) == tostring(CurrentShift) then
+        
+        if tostring(CurrentShift) == "C" and H > 22  then
+         
+           Counter=0
+           Reset()
+           
+        end
+         
+      else
+        Counter=0
+        Reset()
+      end
+    else
+      if tostring(FileShift) == tostring(CurrentShift) then
+        if CurrentMonth==FileDateMonth:sub(3,4) then
+          if ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) > 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) <-1 then
+            if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+            else
+              Counter=0
+              Reset()
+            end
+          end
+          if (((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == -1)  then
+              if tostring(CurrentShift) == "C" and H < 6  then
+              else
+                Counter=0
+                Reset()
+              end
+          end   
+        else
+           if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+           else
+              Counter=0
+              Reset()
+           end
+       end
+      else
+        Counter=0
+        Reset()
+      end
+    end
+    fp:close()
+  end
+   -- Set flag
+  local SerialType = sa.select ("Select Serial Type ",{"Auto","Manual"},nil,false)
+  if(tostring(SerialType) == "Manual") then
+    IsManualSerial = true
+  else
+    IsManualSerial = false
+  end
+  
+  FirstSinceFmt = true  
+
+end
+]]></function>

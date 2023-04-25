@@ -1,0 +1,78 @@
+USE [SATO_AIS_PRINTING_BAWAL]
+GO
+/****** Object:  StoredProcedure [dbo].[PRC_AEP_PRINTNG]    Script Date: 02-08-2022 10:26:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROC [dbo].[PRC_AEP_PRINTNG]
+@TYPE VARCHAR(100)=NULL,
+@PART_NO VARCHAR(100)=NULL,
+@QTY NUMERIC(18,0)=NULL,
+@CREATED_BY VARCHAR(100)=NULL,
+@PRINTER_IP VARCHAR(100)=NULL,
+@CUSTOMER VARCHAR(100)=NULL
+AS
+BEGIN
+    DECLARE @BARCODE VARCHAR(100)=NULL,
+	        @SERIAL_NO VARCHAR(100)=NULL,
+		    @SHIFT VARCHAR(10)=NULL,
+			@LINE VARCHAR(100)=NULL,
+			@GET_CUSTOMER VARCHAR(100)=NULL,
+			@CREATED_ON DATETIME=NULL,
+			@DATE NVARCHAR(10)=NULL,
+			@PART_NAME VARCHAR(100)=NULL
+    IF @TYPE='BIND_MODEL'
+	  BEGIN
+	    SELECT @LINE=Line FROM TBL_PrinterLine_Mapping  WHERE PrinterIp=@PRINTER_IP
+
+		  SELECT distinct MST.InternalPartNo FROM TBL_PartMaster MST JOIN TBL_LINE_PART_MAPPING MP on MST.InternalPartNo=MP.InternalPartNo
+		  join TBL_BarcodeIndex bar on bar.AISPartNo=MST.InternalPartNo
+		  WHERE MP.Line=@LINE AND MST.CustomerCode=@CUSTOMER
+	  END
+	 IF @TYPE='GET_QTY'
+	  BEGIN
+	    SELECT @LINE=Line FROM TBL_PrinterLine_Mapping  WHERE PrinterIp=@PRINTER_IP
+
+		  SELECT distinct MST.PrintQty FROM TBL_PartMaster MST JOIN TBL_LINE_PART_MAPPING MP on MST.InternalPartNo=MP.InternalPartNo
+		  WHERE MP.Line=@LINE AND MST.CustomerCode=@CUSTOMER AND MST.InternalPartNo=@PART_NO
+	  END
+	IF @TYPE='SAVE'
+	  BEGIN
+	       SET @GET_CUSTOMER=''
+	       SET @SERIAL_NO=''
+		   SET @BARCODE=''
+		   SELECT @CREATED_ON=GETDATE() 
+		   SELECT @DATE=REPLACE(CONVERT(varchar,@CREATED_ON,103),'/','.')
+		   SELECT @GET_CUSTOMER=CustomerCode FROM TBL_PartMaster WHERE InternalPartNo=@PART_NO
+		   --SELECT @PART_NAME=InternalPartName FROM TBL_PartMaster WHERE InternalPartNo=@PART_NO
+		    SELECT @PART_NAME=CustomerPartNo FROM TBL_PartMaster WHERE InternalPartNo=@PART_NO
+	       EXECUTE PRC_GetBarcode @PART_NO,@BARCODE output,@SERIAL_NO output;
+		    SET @SHIFT=(SELECT dbo.GetShiftTime(convert(TIME(7),getdate())))
+		--SELECT @SERIAL_NO=RIGHT(@BARCODE,4)
+		INSERT INTO [dbo].[TBL_BarcodePrinting]
+				([PartNo]
+				,[Barcode]
+				,[Qty]
+				,[Status]
+				,[Shift]
+				,[PrintedBy]
+				,[PrintedOn])
+			VALUES
+				(@PART_NO
+				,@BARCODE
+				,@QTY
+				,1
+				,@SHIFT
+				,@CREATED_BY
+				,@CREATED_ON)
+			IF @GET_CUSTOMER='MARUTI' OR @GET_CUSTOMER='TATA'
+			 BEGIN
+			   SELECT 'Y' As RESULT,@BARCODE As BARCODE,@PART_NAME AS PART_NAME,@SERIAL_NO AS SERIAL_NO,RIGHT(+'0'+CAST(SUBSTRING(REPLACE(@DATE,'.',''),3,2) AS varchar(2)),2)+RIGHT(CAST(REPLACE(@DATE,'.','') AS varchar(100)),2) AS MFG_DATE
+			 END
+			ELSE
+			 BEGIN
+			   SELECT 'Y' As RESULT,@BARCODE As BARCODE
+			 END
+	  END
+END

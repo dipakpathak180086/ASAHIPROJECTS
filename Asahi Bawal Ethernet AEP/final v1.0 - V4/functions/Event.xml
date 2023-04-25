@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="Event" type=""><![CDATA[function()
+  
+ -- Return a valid value when in design mode (AEP Works).
+	if resolver then return "<nothing>"  end
+  sa.msg("hi")
+  local oIo = sa.events:get("online:io") -- Descriptor for data to/from interfaces.
+    local oIn = sa.events:get("online:in") -- Descriptor for data to online parser.
+  local gui = sa.events:get("gui")       -- Our gui handle. 
+  local oIoFn, oIoInfo
+  local IntStore = "1024"
+  local IntReplace = "tty"
+ 
+  local prndata=""
+
+  -- Function called when data received on any of the interfaces.
+  -- When match detected by filter function replace data and send down to online parser.
+  local function hunter(fd)
+    local _,_,port = system.ahd()
+    if port.name == IntStore then --
+    	local r = fd:bytesToRead()
+    	local data = fd:read(r)
+    	
+    	--local output = Store(data)
+      local output = data
+    	EthernetModel=data
+    	
+    	--sa.msg('ehternet')
+    	sa.msg(EthernetModel)
+      
+    
+		  EthernetModel=""
+			-- send any response back to requester
+    	if output then
+        	oIo:write(output)
+    	end
+    
+    else
+      oIoFn(fd) -- Data from any other interface is passed down to
+                -- the current running online application.
+    end
+  end
+
+  -- Clear old data.
+  local _, _, port = system.ahd()
+  if port.name == IntStore then
+    local bytesToRead = device.bytesToRead(oIo)
+    oIo:read(bytesToRead)
+  end
+ 
+  -- Replace default online:io handler with our own.
+  oIoFn, oIoInfo = sa.events:replace(oIo, oIo, hunter, "online:io")
+  -- We don't have any gui interaction so show online screen.
+  gui:online("Replace")
+  -- Resume GUI before event loop.
+  --sa.events:resume(gui)
+  
+  while EthernetModel == "" do
+    sa.events:run()
+    --sa.msg('ehternet22')
+   end
+   --sa.msg('PU')
+  -- Restore default online:io handler.
+  sa.events:replace(oIo, oIo, oIoFn, "online:io")
+  -- Suspend GUI when done.
+  --sa.events:suspend(gui)
+  -- No AEP printout (will prevent standard quantity prompt).
+  sa.quantity(0)
+  sa.msg('final')
+  
+end
+]]></function>

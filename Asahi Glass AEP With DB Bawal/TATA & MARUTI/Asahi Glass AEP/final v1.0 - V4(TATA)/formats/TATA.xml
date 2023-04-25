@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<format name="TATA" design_width="600" design_height="480">
+  <field name="BARCODE" vPos="62" hPos="35" fieldtype="barcode" barcode="qrcode" cellSize="13" value="005523671001010921KOA6568800000" formatter="return string.format(Field.format,Value)" />
+  <field name="F1" hPos="35" vPos="-101" fieldtype="text" lua="return PrintBarcode()" source="script" formatter="return string.format(Field.format,Value)" />
+  <field name="Model" hPos="380" vPos="254" fieldtype="text" font="calibrib.ttf" size="4" value="Model" formatter="return string.format(Field.format,Value)" />
+  <field name="PartNo" hPos="380" vPos="80" fieldtype="text" font="calibrib.ttf" size="4" value="PartNo" formatter="return string.format(Field.format,Value)" />
+  <field name="SrNo" hPos="381" vPos="166" fieldtype="text" font="calibrib.ttf" size="4" value="SrNo" formatter="return string.format(Field.format,Value)" />
+  <field name="MFG" hPos="383" vPos="343" fieldtype="text" font="calibrib.ttf" size="4" value="MFG" formatter="return string.format(Field.format,Value)" />
+  <field name="BottomText" hPos="38" vPos="417" fieldtype="text" font="calibrib.ttf" size="4" value="Asahi India Glass Limited" formatter="return string.format(Field.format,Value)" />
+</format>

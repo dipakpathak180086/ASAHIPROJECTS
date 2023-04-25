@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<format name="MARUTI" design_width="576" design_height="288">
+  <field name="BARCODE" vPos="59" hPos="89" fieldtype="barcode" barcode="qrcode" cellSize="8" value="005523671001010921KOA6568800000" formatter="return string.format(Field.format,Value)" />
+  <field name="F1" hPos="35" vPos="-101" fieldtype="text" lua="return PrintBarcode()" source="script" formatter="return string.format(Field.format,Value)" />
+  <field name="PartNo" hPos="304" vPos="65" fieldtype="text" font="calibrib.ttf" size="5" value="PartNo" formatter="return string.format(Field.format,Value)" />
+  <field name="SrNo" hPos="305" vPos="135" fieldtype="text" font="calibrib.ttf" size="5" value="SrNo" formatter="return string.format(Field.format,Value)" />
+  <field name="Model" hPos="304" vPos="209" fieldtype="text" font="calibrib.ttf" size="5" value="Model" formatter="return string.format(Field.format,Value)" />
+</format>

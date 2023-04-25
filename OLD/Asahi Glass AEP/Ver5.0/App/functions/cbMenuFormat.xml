@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="cbMenuFormat" type=""><![CDATA[function(format)  
+  --SelectedModel = sa.select ("Select Model",{"89019M62S01","89019N62S01","89019S62S01"},nil,false)
+  SelectedModel = sa.select ("Select Model",{"84501M81R00","84502M81R00","84503M81R00","84504M81R00","84570M81R00","84570M81R10","84051M81R00","84051M81R10"},nil,false)
+  
+  local NewModel = sa.input("Selected Model",SelectedModel)
+  SelectedModel = NewModel
+  
+  local newCounter
+  local FileDateMonth = ""
+  local FileShift = ""
+  
+  
+ local H = tonumber(sa.ldate("%H",date))
+  
+  if H >= 6 and H < 14 then
+    CurrentShift = "A" 
+  elseif H >= 14 and H < 22 then
+    CurrentShift = "B"
+  else
+    CurrentShift = "C"
+  end
+  
+  -- Fetch last counter value from file
+  Counter = 0
+  fp = io.open("/ffs/data/data.txt", "r")
+  if fp then
+    --Read Counter from file and store in global variable
+    Counter = fp:read() --For Counter Read
+    --Read Last dateMonth From The File
+    FileDateMonth = fp:read()  --For DateMonth Read
+      --Read Shift from file
+    FileShift = fp:read() --For Shift Read
+    
+    local CurrentDateMonth = tostring(CurrentDate)..tostring(CurrentMonth)
+    --if file datemonth are same as current then nothing will happen otherwise reset the counter
+    if  CurrentDateMonth == tostring(FileDateMonth) and CurrentShift == tostring(FileShift) then
+      --OK
+    else -- Reset counter if date changed
+      Counter = 0
+    end
+    ---local splitTBL = sa.split(Barcode," ") -- split with space
+    local ModelSplit=""
+    local ModelRead=""
+      ModelRead=fp:read()  --Model1
+      ModelSplit=sa.split(ModelRead,",")
+    if ModelSplit[0] ==SelectedModel then
+      Model1=ModelSplit[0]
+      Model1Counter=ModelSplit[1]
+      Counter=Model1Counter
+      
+    end
+      ModelRead=fp:read()  --Model2
+      ModelSplit=sa.split(ModelRead,",")
+     if ModelSplit[0]==SelectedModel then
+        Model2=ModelSplit[0]
+        Model2Counter=ModelSplit[1]
+        Counter=Model2Counter
+        
+     end
+      ModelRead=fp:read()  --Model3
+      ModelSplit=sa.split(ModelRead,",")
+     if ModelSplit[0]==SelectedModel then
+      Model3=ModelSplit[0]
+      Model3Counter=ModelSplit[1]
+      Counter=Model3Counter
+      
+     end
+    ModelRead=fp:read()  --Model4
+    ModelSplit=sa.split(ModelRead,",")
+     if ModelSplit[0]==SelectedModel then
+      Model4=ModelSplit[0]
+      Model4Counter=ModelSplit[1]
+      Counter=Model4Counter
+      
+     end
+    ModelRead=fp:read()  --Model5
+    ModelSplit=sa.split(ModelRead,",")
+     if ModelSplit[0]==SelectedModel then
+      Model5=ModelSplit[0]
+      Model5Counter=ModelSplit[1]
+      Counter=Model5Counter
+      
+     end
+    ModelRead=fp:read()  --Model6
+    ModelSplit=sa.split(ModelRead,",")
+     if ModelSplit[0]==SelectedModel then
+      Model6=ModelSplit[0]
+      Model6Counter=ModelSplit[1]
+      Counter=Model6Counter
+      
+     end
+    ModelRead=fp:read()  --Model7
+    ModelSplit=sa.split(ModelRead,",")
+     if ModelSplit[0]==SelectedModel then
+      Model7=ModelSplit[0]
+      Model7Counter=ModelSplit[1]
+      Counter=Model7Counter
+      
+     end
+    ModelRead=fp:read()  --Model8
+    ModelSplit=sa.split(ModelRead,",")
+     if ModelSplit[0]==SelectedModel then
+        Model8=ModelSplit[0]
+        Model8Counter=ModelSplit[1]
+        Counter=Model8Counter
+     end
+     
+    ---If Model ,Shift and Date changed
+     if  CurrentDateMonth == tostring(FileDateMonth) and CurrentShift == tostring(FileShift) then
+        --OK
+     else -- Reset counter if date changed
+        Counter = 0
+     end
+    --Read last model from the file if model from the file and selected model is different then reset counter
+    --local FileModelNo = fp:read()
+    --if FileModelNo == SelectedModel then
+      --nothing will  happen
+    --else
+      --Reset counter if model change
+      --Counter = 0
+    --end
+    fp:close()
+  end
+   -- Set flag
+  FirstSinceFmt = true  
+
+end
+]]></function>

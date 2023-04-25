@@ -1,0 +1,53 @@
+
+[Log Startup at 16:00:07]
+2021-11-10 16:00:07.388 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2021-11-10 16:00:07.565 (Info) Server.StartService - Starting ClientServices...
+2021-11-10 16:00:07.676 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2021-11-10 16:00:07.788 (Info) ClientService.Start - Client threads on server: 50.
+2021-11-10 16:00:07.901 (Info) Server.StartService - Create new listener on server...
+2021-11-10 16:00:08.014 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2021-11-10 16:00:08.126 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2021-11-10 16:00:08.238 (Info) Server.Listener.Start - Starting listener...
+2021-11-10 16:00:08.350 (Info) Server.Listener - Server started on port 9100
+2021-11-10 16:00:52.253 (Info) Server.Listener - New client connection detected...
+2021-11-10 16:00:52.365 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-10 16:00:52.478 (Info) ClientHandler.Initialize - Connected client : 192.168.43.204
+2021-11-10 16:00:52.590 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Mesg=V_USER~admin~1
+2021-11-10 16:01:00.513 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Resp=VALID~Admin~1~Admin
+2021-11-10 16:01:00.843 (Info) Server.Listener - New client connection detected...
+2021-11-10 16:01:00.954 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-10 16:01:01.065 (Info) ClientHandler.Initialize - Connected client : 192.168.43.204
+2021-11-10 16:01:01.177 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Mesg=GET_USER_RIGHT~Admin
+2021-11-10 16:01:01.288 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Resp=VALID~101#102#103#104#105#106#107#201#202
+2021-11-10 16:07:42.638 (Info) Server.Listener - New client connection detected...
+2021-11-10 16:07:42.748 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-10 16:07:42.858 (Info) ClientHandler.Initialize - Connected client : 192.168.43.204
+2021-11-10 16:07:42.966 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Mesg=V_USER~admin~1
+2021-11-10 16:07:43.075 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Resp=VALID~Admin~1~Admin
+2021-11-10 16:07:43.182 (Info) Server.Listener - New client connection detected...
+2021-11-10 16:07:43.292 (Info) ClientHandler.Initialize - Creating new client connection.
+2021-11-10 16:07:43.402 (Info) ClientHandler.Initialize - Connected client : 192.168.43.204
+2021-11-10 16:07:43.511 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Mesg=GET_USER_RIGHT~Admin
+2021-11-10 16:07:43.619 (Data) ClientHandler.ProcessData - IP=192.168.43.204 Resp=VALID~101#102#103#104#105#106#107#201#202
+2021-11-10 16:08:36.043 (Info) Server.StopService - Stopping client services...
+2021-11-10 16:08:36.154 (Info) ClientService.Stop - Stopping thread service...
+2021-11-10 16:08:36.265 (Info) ClientService.Stop - Thread pool stopped.
+2021-11-10 16:08:36.373 (Info) ClientService.Stop - Stop client connections 4 active connections.
+2021-11-10 16:08:36.484 (Info) ClientHandler.Close - Duration: 00:07:35.3898427
+2021-11-10 16:08:36.591 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.204
+2021-11-10 16:08:36.699 (Info) ClientHandler.Close - Connection Closed.
+2021-11-10 16:08:36.814 (Info) ClientHandler.Close - Duration: 00:07:43.8985851
+2021-11-10 16:08:36.926 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.204
+2021-11-10 16:08:37.033 (Info) ClientHandler.Close - Connection Closed.
+2021-11-10 16:08:37.143 (Info) ClientHandler.Close - Duration: 00:00:53.4145295
+2021-11-10 16:08:37.252 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.204
+2021-11-10 16:08:37.361 (Info) ClientHandler.Close - Connection Closed.
+2021-11-10 16:08:37.470 (Info) ClientHandler.Close - Duration: 00:00:53.6183107
+2021-11-10 16:08:37.579 (Info) ClientHandler.Close - Closing Connection to Client 192.168.43.204
+2021-11-10 16:08:37.686 (Info) ClientHandler.Close - Connection Closed.
+2021-11-10 16:08:37.795 (Info) Server.ClientTask.Stop - Completed successfully.
+2021-11-10 16:08:37.903 (Info) Server.StopService.Listener.Stop - Initiating listener stop....
+2021-11-10 16:08:38.016 (Info) Server.StopService.Listener.Stop -  successfull.
+2021-11-10 16:08:38.129 (Info) Server.ListenerThread.Join - Completed.
+2021-11-10 16:08:38.238 (Info) Server.StopService - Uptime: 0 days 0 hours 8 minutes 29 seconds.
+2021-11-10 16:08:38.346 (Info) EventServer.StopService - Sending Signal to Stop Event Service

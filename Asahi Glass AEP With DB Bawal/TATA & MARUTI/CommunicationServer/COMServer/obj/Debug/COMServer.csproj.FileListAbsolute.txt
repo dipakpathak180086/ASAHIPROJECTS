@@ -1,0 +1,219 @@
+D:\Web Application\COMServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Web Application\COMServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Web Application\COMServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.Cache
+D:\Web Application\COMServer\COMServer\bin\Debug\COMServer.exe
+D:\Web Application\COMServer\COMServer\bin\Debug\COMServer.pdb
+D:\Web Application\COMServer\COMServer\bin\Debug\SILSocketServer.dll
+D:\Web Application\COMServer\COMServer\obj\Debug\COMServer.exe
+D:\Web Application\COMServer\COMServer\obj\Debug\COMServer.pdb
+D:\Web Application\COMServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Web Application\COMServer\COMServer\obj\Debug\COMServer.csprojResolveAssemblyReference.cache
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.Cache
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\bin\Debug\SATOPrinterAPI.dll
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\bin\Debug\SATOPrinterInterface.dll
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\bin\Debug\USBConnectLib.dll
+D:\AreteInfo Project\SATO USL\CommunicationServer\COMServer\obj\Debug\COMServer.csprojResolveAssemblyReference.cache
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\bin\Debug\SATOPrinterAPI.dll
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\bin\Debug\SATOPrinterInterface.dll
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\bin\Debug\USBConnectLib.dll
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\USL\USL SATO\USL SATO\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+E:\DIPAK\Development\Old Project\TPR\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\AfterPhase2Change\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+E:\DIPAK\Development\Pendrive\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\Ver4.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\Ver5.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\CommServer\Ver6.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.5\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver6.0.0.7\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.1\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\TPR\Code\CommServer\Ver7.0.0.2\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Amit\Project\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Akhilesh Kumar\Projects\AISIN\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+E:\DIPAK\Development\New Project\Surgiwear\Surgiwear\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe.config
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\COMServer.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.frmServer.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.Properties.Resources.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.GenerateResource.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\COMServer.pdb

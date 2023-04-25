@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<format name="AL" design_width="1200" design_height="600">
+  <field name="BARCODE" vPos="72" hPos="48" fieldtype="barcode" barcode="qrcode" cellSize="8" correctionLevel="L" value="7200976$FGG45LFHGCG31B0000$0029$18092021$A$NA$NA$03$WindshieldLH$AIS" formatter="return string.format(Field.format,Value)" />
+  <field name="Name" hPos="44" vPos="487" fieldtype="text" font="calibrib.ttf" size="10" value="FG.AAA.LFH.GCG2120000" formatter="return string.format(Field.format,Value)" />
+  <field name="F1" vPos="-114" fieldtype="text" lua="return PrintBarcode()" source="script" formatter="return string.format(Field.format,Value)" />
+  <field name="F3" hPos="504" vPos="-37" hMag="2" vMag="2" fieldtype="image" value="AIS-logo.bmp" formatter="return string.format(Field.format,Value)" />
+  <field name="lblPartName" hPos="398" vPos="270" fieldtype="text" font="calibrib.ttf" size="7" value="Part Name-" formatter="return string.format(Field.format,Value)" />
+  <field name="lblMFGDate" hPos="396" vPos="416" fieldtype="text" font="calibrib.ttf" size="7" value="Date Of Mfg.-" formatter="return string.format(Field.format,Value)" />
+  <field name="lblSerial" hPos="398" vPos="344" fieldtype="text" font="calibrib.ttf" size="7" value="Serial No.-" formatter="return string.format(Field.format,Value)" />
+  <field name="PartName" hPos="745" vPos="270" fieldtype="text" font="calibrib.ttf" size="7" value="partname" formatter="return string.format(Field.format,Value)" />
+  <field name="SerialNo" hPos="745" vPos="343" fieldtype="text" font="calibrib.ttf" size="7" value="serialno" formatter="return string.format(Field.format,Value)" />
+  <field name="MfgDate" hPos="744" vPos="416" fieldtype="text" font="calibrib.ttf" size="7" value="mfgdate" formatter="return string.format(Field.format,Value)" />
+</format>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace firmware="1.8.0-16215" update="printer" packagename="Asahi Glass(WS AND WSV).pkg" appname="Asahi Glass WS AND WSV" compress="True" lockall="True" addprescript="True" protect="False">
+  <ConfigItem path="System\local_configApp.xml.lcx" />
+  <Item path="functions\Start.xml" />
+  <Item path="functions\cbFormatData.xml" />
+  <Item path="formats\Format2.xml" />
+  <Item path="functions\cbMenuFormat.xml" />
+  <ImportedItem path="imported\data.txt" vpath="/ffs/data.txt" />
+  <Item path="functions\ReadData.xml" />
+  <ConfigItem path="System\local_configTbl.xml" />
+  <ConfigItem path="System\local_fnc.xml.lcx" />
+  <Item path="functions\Reset.xml" />
+</Workspace>

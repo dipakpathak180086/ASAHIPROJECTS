@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace firmware="1.6.3-15300" update="printer" packagename="Yachio.pkg" appname="Yachui" compress="True" lockall="True" addprescript="True" protect="False">
+  <ConfigItem path="System\local_fnc.xml.lcx" />
+  <ConfigItem path="System\local_configApp.xml.lcx" />
+  <Item path="functions\Start.xml" />
+  <Item path="functions\cbFormatData.xml" />
+  <ConfigItem path="System\local_configTbl.xml" />
+  <Item path="formats\Format2.xml" />
+  <Item path="functions\cbMenuFormat.xml" />
+  <ImportedItem path="imported\data.txt" vpath="/ffs/data.txt" />
+  <Item path="images\WhatsApp Image 2021-03-13 at 12.13.17 PM (1).bmp" />
+</Workspace>

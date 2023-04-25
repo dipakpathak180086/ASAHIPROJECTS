@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="cbFormatData" type=""><![CDATA[function(format,action,start,bCompleted,sErr)
+  local localDate = sa.ldate("%d",date)
+  local localShift = ""
+  local H = tonumber(sa.ldate("%H",date))
+  
+  if H >= 6 and H < 14 then
+    localShift = "A" 
+  elseif H >= 14 and H < 22 then
+    localShift = "B"
+  else
+    localShift = "C"
+  end
+  
+  if FirstSinceFmt then    
+    -- Skip first calls after cbMenuFormat
+    if start == false then      
+      if tostring(localDate) == tostring(CurrentDate) and tostring(localShift) == tostring(CurrentShift) then
+          --sa.msg("same date")
+        else
+          Counter = 0
+          --reset variable to current date
+          CurrentDate = sa.ldate("%d",date)
+          CurrentMonth = sa.ldate("%m",date)
+          CurrentYear = sa.ldate("%Y",date)
+          CurrentShift = localShift
+        end
+     
+      Counter = Counter + 1 
+
+       local ShowCounter = string.format("%04d", Counter)
+
+       local DateData = tostring(CurrentYear)..tostring(CurrentMonth)..tostring(CurrentDate)
+       local GuiDate = tostring(CurrentDate).."-"..tostring(CurrentMonth).."-"..tostring(CurrentYear).."-"..tostring(CurrentShift)
+
+       local ShowModelValue = sa.select("Details",{"Model No : "..tostring(SelectedModel),"Date : "..GuiDate,tostring(ShowCounter)},nil,false)
+       -- if back button is pressed then don't print
+       if ShowModelValue == nil then        
+        --sa.msg("Don't go forward")
+        return
+       end
+       --Start New Code Added
+       localDate = sa.ldate("%d",date)
+       if tostring(localDate) == tostring(CurrentDate) and tostring(localShift) == tostring(CurrentShift) then
+          --sa.msg("same date")
+        else          
+          Counter = 1
+          --reset variable to current date
+          CurrentDate = sa.ldate("%d",date)
+          CurrentMonth = sa.ldate("%m",date)
+          CurrentYear = sa.ldate("%Y",date)         
+        end
+      --End New Coode Added
+      
+        ShowCounter = string.format("%04d", Counter)    
+        DateData = tostring(CurrentDate)..tostring(CurrentMonth)..tostring(CurrentYear)
+        TimeData = tostring(tonumber(sa.ldate("%H",date)))..tostring(tonumber(sa.ldate("%M",date)))..tostring(tonumber(sa.ldate("%S",date)))
+       
+       Format.MODELNAME.data= tostring(SelectedModel) 
+       Format.MODELNAME.value = Format.MODELNAME.data
+        
+       Format.BARCODE.data= tostring(ShowCounter) 
+       Format.BARCODE.value=Format.BARCODE.data
+       
+
+       Format.QR.data= tostring(SelectedModel)..DateData..TimeData..CurrentShift.."350"..tostring(ShowCounter) 
+       Format.QR.value=Format.QR.data
+       sa.quantity(1)
+       --Write Counter in the file
+       fp = io.open("/ffs/data/data.txt", "w")
+      if fp  then
+  	     fp:write(Counter,"\n")
+        --write current datemonth in file
+        local FileDateMonth = tostring(CurrentDate)..tostring(CurrentMonth)
+         fp:write(FileDateMonth,"\n")
+        --writer current shift
+         fp:write(CurrentShift,"\n")
+        --write Current Model in the file
+       if SelectedModel==Model1 then --Model1
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model1..","..tostring(Model1Counter),"\n")
+       end
+       
+       if SelectedModel==Model2 then --Model2
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model2..","..tostring(Model2Counter),"\n")
+       end
+       
+       if SelectedModel==Model3 then --Model3
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model3..","..tostring(Model3Counter))
+       end
+       
+       if SelectedModel==Model4 then --Model4
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model4..","..tostring(Model4Counter),"\n")
+       end
+       
+       if SelectedModel==Model5 then --Model5
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model5..","..tostring(Model5Counter),"\n")
+       end
+       
+       if SelectedModel==Model6 then --Model6
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model6..","..tostring(Model6Counter),"\n")
+       end
+       
+       if SelectedModel==Model7 then --Model7
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model7..","..tostring(Model7Counter),"\n")
+       end
+       
+       if SelectedModel==Model8 then --Model8
+         fp:write(SelectedModel..","..tostring(Counter),"\n")
+       else
+         fp:write(Model8..","..tostring(Model8Counter),"\n")
+       end
+       
+         fp:close()
+      end
+      
+    end 
+    
+  end
+
+end
+]]></function>

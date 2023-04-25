@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="PrintBarcode" type=""><![CDATA[function(format)
+	-- if resolver then return end -- for breaking loops/detecting in AEPWorks
+	-- write your code here..
+-- if resolver then return end -- for breaking loops/detecting in AEPWorks
+	-- write your code here..
+  if resolver then 
+    return json.encode("returns")
+  end  
+  
+  local Http_Status_Ok = 200
+  local Qty = 1 -- store the bin starndard qty
+  
+   local http = require("socket.http") -- Loads the HTTP module
+      --call api
+          if tostring(SelectedModel)=="" then
+             sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+             return false
+          else
+              local EnterQty = 0
+               EnterQty=sa.input("Model:("..tostring(SelectedModel)..") Enter Qty:",Qty,"%u","",true) -- input unsigned intergar only
+             
+                if tostring(EnterQty) == "" or tonumber(EnterQty) == 0 then
+                  sa.msg("Enter Qty")
+                  sa.quantity(0)
+                  return false
+               end
+             
+             
+             
+              local ApiUrl = "http://"..tostring(ServerIp).."/asahi/api/service/Save/" .. tostring(SelectedModel).."/" ..tostring(EnterQty)
+              --sa.msg(tostring(ApiUrl))
+              local responseDataSave, statusCodeSave = http.request(ApiUrl)
+              if(statusCodeSave ~= Http_Status_Ok) then
+                sa.msg("Error Status:"..tostring(statusCodeSave))
+                sa.msg("Error message "..tostring(responseDataSave))
+                sa.quantity(0) -- this field is madatory otherwise input qty field will come automatically
+                return
+              end
+              -- if everything is fine then decode json data
+              local jsonProduction = json.decode(responseDataSave)
+              if(jsonProduction.Response == "Y") then
+                --set barcode data
+                --sa.msg(tostring(jsonProduction.Barcode))
+                Format.BARCODE.data = jsonProduction.Barcode
+                Format.BARCODE.value = Format.BARCODE.data 
+                Format.Name.data = tostring(SelectedModel)
+                Format.Name.value = Format.Name.data 
+                --now print the data
+                sa.quantity(EnterQty) 
+                return true
+              end
+          end
+   
+end
+]]></function>

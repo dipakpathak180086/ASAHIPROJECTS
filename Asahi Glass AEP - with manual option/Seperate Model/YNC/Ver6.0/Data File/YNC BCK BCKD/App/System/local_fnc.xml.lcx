@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fnc xmlns="TH2_FNC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="TH2_FNC fnc/fnc.xsd">
+  <node name="f1" title="F1" > <lua> function(self) return menu.menu(self) end </lua>
+    <node name="print" title="sa.printCopy" > <lua> function(self) menu.printCopy() end </lua> </node> 
+    <node name="profile" title="sa.profile" > <lua> function(self) return sa._navigate() end </lua> </node>
+    <node name="timeoffset" title="sa.timeOffset" > <lua> function(self) return menu.timeOffset(self) end </lua> </node> 
+    <node name="info" title="sa.info" > <lua> function(self) sa.info() end </lua> </node>
+  </node>
+</fnc>

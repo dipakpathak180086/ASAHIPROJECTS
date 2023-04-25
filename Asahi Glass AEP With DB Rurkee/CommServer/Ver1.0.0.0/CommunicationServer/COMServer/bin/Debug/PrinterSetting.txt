@@ -1,0 +1,5 @@
+Machining Printer IP=10.91.6.10
+Machining Printer Port=5150
+Final Packing Printer IP=10.91.6.10
+Final Packing Printer Port=5150
+Printer Name = Sato

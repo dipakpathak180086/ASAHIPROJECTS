@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="Reset" type=""><![CDATA[function()
+  Model1Counter="0"
+  Model2Counter="0"
+  Model3Counter="0"
+  Model4Counter="0"
+  Model5Counter="0"
+  Model6Counter="0"
+  Model7Counter="0"
+  Model8Counter="0"
+  Model9Counter="0"
+  Model10Counter="0"
+  Model11Counter="0"
+  Model12Counter="0"
+  Model13Counter="0"
+  Model14Counter="0"
+  Model15Counter="0"
+  Model16Counter="0"
+  Model17Counter="0"
+  Model18Counter="0"
+end
+]]></function>

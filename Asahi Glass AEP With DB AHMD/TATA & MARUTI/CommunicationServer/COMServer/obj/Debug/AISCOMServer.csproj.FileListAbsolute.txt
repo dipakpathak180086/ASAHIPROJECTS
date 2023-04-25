@@ -1,0 +1,32 @@
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe.config
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.frmServer.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.Properties.Resources.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.GenerateResource.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe.config
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.frmServer.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.Properties.Resources.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.GenerateResource.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe.config
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\bin\Debug\AISCOMServer.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.frmServer.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.Properties.Resources.resources
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.GenerateResource.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.exe
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.pdb

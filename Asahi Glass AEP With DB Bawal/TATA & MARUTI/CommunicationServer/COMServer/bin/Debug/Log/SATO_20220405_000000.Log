@@ -1,0 +1,101 @@
+
+[Log Startup at 10:59:40]
+2022-04-05 10:59:40.973 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2022-04-05 10:59:41.089 (Info) Server.StartService - Starting ClientServices...
+2022-04-05 10:59:41.205 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2022-04-05 10:59:41.320 (Info) ClientService.Start - Client threads on server: 50.
+2022-04-05 10:59:41.420 (Info) Server.StartService - Create new listener on server...
+2022-04-05 10:59:41.521 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2022-04-05 10:59:41.621 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2022-04-05 10:59:41.722 (Info) Server.Listener.Start - Starting listener...
+2022-04-05 10:59:41.838 (Info) Server.Listener - Server started on port 9100
+2022-04-05 11:02:05.353 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:02:05.467 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:02:05.567 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:02:05.668 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=V_USER~1~1
+2022-04-05 11:02:05.783 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=VALID~1~1~Admin
+2022-04-05 11:02:05.994 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:02:06.100 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:02:06.200 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:02:06.301 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=GET_USER_RIGHT~Admin
+2022-04-05 11:02:06.402 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=VALID~101#102#103#104#105#106#107#201#202
+2022-04-05 11:02:07.676 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:02:07.788 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:02:07.889 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:02:08.004 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=PALLETMAPPING~BIND_PARTNO~~~~~1
+2022-04-05 11:02:08.120 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=INVALID~No Data Found!!!
+2022-04-05 11:13:50.922 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:13:51.031 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:13:51.138 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:13:51.248 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=V_USER~1~1
+2022-04-05 11:13:51.357 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=VALID~1~1~Admin
+2022-04-05 11:13:51.466 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:13:51.575 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:13:51.684 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:13:51.794 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=GET_USER_RIGHT~Admin
+2022-04-05 11:13:51.902 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=VALID~101#102#103#104#105#106#107#201#202
+2022-04-05 11:13:52.552 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:13:52.661 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:13:52.770 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:13:52.880 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=PALLETMAPPING~BIND_PARTNO~~~~~1
+2022-04-05 11:13:52.988 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=INVALID~No Data Found!!!
+2022-04-05 11:16:18.289 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:16:18.399 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:16:18.506 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:16:18.614 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=PALLETMAPPING~BIND_PARTNO~~~~~1
+2022-04-05 11:16:18.722 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=VALID~MCA BCK#MCA BCK D#ML9 BCK#ML9 BCK D#ML9 DG QTR L#ML9 DG QTR R#ML9 IR WS#ML9 QTR L#ML9 QTR R#ML9 WS#MVL WS
+2022-04-05 11:16:26.516 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:16:26.624 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:16:26.733 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:16:26.839 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=PALLETMAPPING~BIND_VIEW~MCA BCK~~~~1
+2022-04-05 11:16:26.947 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=INVALID~No Data Found!!!
+2022-04-05 11:31:58.211 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:31:58.320 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:31:58.430 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:31:58.538 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=PALLETMAPPING~SAVE~MCA BCK~~~fhhhdh~1
+2022-04-05 11:31:58.646 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=INVALID~THIS BARCODE (fhhhdh) DOES NOT EXIST
+2022-04-05 11:32:01.910 (Info) Server.Listener - New client connection detected...
+2022-04-05 11:32:02.018 (Info) ClientHandler.Initialize - Creating new client connection.
+2022-04-05 11:32:02.128 (Info) ClientHandler.Initialize - Connected client : 192.168.1.105
+2022-04-05 11:32:02.235 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Mesg=PALLETMAPPING~SAVE~MCA BCK~~~xdggh~1
+2022-04-05 11:32:02.342 (Data) ClientHandler.ProcessData - IP=192.168.1.105 Resp=INVALID~THIS BARCODE (xdggh) DOES NOT EXIST
+2022-04-05 11:43:40.699 (Info) Server.StopService - Stopping client services...
+2022-04-05 11:43:40.800 (Info) ClientService.Stop - Stopping thread service...
+2022-04-05 11:43:40.905 (Info) ClientService.Stop - Thread pool stopped.
+2022-04-05 11:43:41.009 (Info) ClientService.Stop - Stop client connections 10 active connections.
+2022-04-05 11:43:41.113 (Info) ClientHandler.Close - Duration: 00:27:22.4871057
+2022-04-05 11:43:41.216 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:41.330 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:41.452 (Info) ClientHandler.Close - Duration: 00:41:34.7777172
+2022-04-05 11:43:41.553 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:41.653 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:41.754 (Info) ClientHandler.Close - Duration: 00:29:49.8081672
+2022-04-05 11:43:41.854 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:41.955 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:42.055 (Info) ClientHandler.Close - Duration: 00:27:14.2777998
+2022-04-05 11:43:42.156 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:42.256 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:42.357 (Info) ClientHandler.Close - Duration: 00:41:33.1422395
+2022-04-05 11:43:42.472 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:42.573 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:42.673 (Info) ClientHandler.Close - Duration: 00:29:49.4060848
+2022-04-05 11:43:42.774 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:42.889 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:43.005 (Info) ClientHandler.Close - Duration: 00:11:38.8990231
+2022-04-05 11:43:43.105 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:43.206 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:43.306 (Info) ClientHandler.Close - Duration: 00:11:42.5819335
+2022-04-05 11:43:43.407 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:43.507 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:43.608 (Info) ClientHandler.Close - Duration: 00:41:35.3933970
+2022-04-05 11:43:43.708 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:43.809 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:43.909 (Info) ClientHandler.Close - Duration: 00:29:48.1938191
+2022-04-05 11:43:44.025 (Info) ClientHandler.Close - Closing Connection to Client 192.168.1.105
+2022-04-05 11:43:44.125 (Info) ClientHandler.Close - Connection Closed.
+2022-04-05 11:43:44.225 (Info) Server.ClientTask.Stop - Completed successfully.
+2022-04-05 11:43:44.326 (Info) Server.StopService.Listener.Stop - Initiating listener stop....
+2022-04-05 11:43:44.426 (Info) Server.StopService.Listener.Stop -  successfull.
+2022-04-05 11:43:44.527 (Info) Server.ListenerThread.Join - Completed.
+2022-04-05 11:43:44.627 (Info) Server.StopService - Uptime: 0 days 0 hours 43 minutes 59 seconds.
+2022-04-05 11:43:44.728 (Info) EventServer.StopService - Sending Signal to Stop Event Service

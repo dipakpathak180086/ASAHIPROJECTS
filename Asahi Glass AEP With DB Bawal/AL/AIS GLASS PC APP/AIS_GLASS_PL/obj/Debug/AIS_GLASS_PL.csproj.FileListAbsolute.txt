@@ -1,0 +1,31 @@
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\AIS_GLASS_PL.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\AIS_GLASS_PL.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\bin\Debug\AIS_GLASS_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\bin\Debug\AIS_GLASS_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\AIS_GLASS_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\AIS_GLASS_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\AIS_GLASS_PL.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\bin\Debug\AIS_GLASS_COMMON.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\bin\Debug\SatoLib.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\bin\Debug\AIS_GLASS_COMMON.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\AIS GLASS PC APP\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\AIS GLASS PC APP\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AL\AIS GLASS PC APP\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AL\AIS GLASS PC APP\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AL\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AL\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AL\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AL\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AL\AIS GLASS PC APP\AIS_GLASS_PL\obj\Debug\AIS_GLASS_PL.pdb

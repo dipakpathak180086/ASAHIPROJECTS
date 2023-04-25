@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="cbMenuFormat" type=""><![CDATA[function(format)  
+  --SelectedModel = sa.select ("Select Model",{"89019M62S01","89019N62S01","89019S62S01"},nil,false)
+  --SelectedModel = sa.select ("Select Model",{"84501M81R00","84502M81R00","84503M81R00","84504M81R00","84570M81R00","84570M81R10","84051M81R00","84051M81R10","84501M66T00","84502M66T00","84503M66T00","84504M66T00","84570M66T00","84570M66T10","84570M66T20","84051M66T00"},nil,false)
+  SelectedModel = sa.select ("Select Model",{"MC1 FDR","MC1 FDL","MC1 RDR","MC1 RDL","MC1 BCK","MC1 BCKD","MC1 WS","M1V WSV","MB3 FDR","MB3 FDL","MB3 RDR","MB3 RDL","MB3 BCK","MB3 BCKD","MB3 BCKDH","MB3 WS","MB3 SWR","MB3 SWL"},nil,false)
+  
+  --local NewModel = sa.input("Selected Model",SelectedModel)
+  --SelectedModel = NewModel
+  
+  local newCounter
+  local FileDateMonth = ""
+  local FileShift = ""
+  
+  if SelectedModel == nil then        
+        --sa.msg("Don't go forward")
+        return  
+   end
+  
+ local H = tonumber(sa.ldate("%H",date))
+  
+  if H >= 6 and H < 14 then
+    CurrentShift = "A" 
+  elseif H >= 14 and H < 22 then
+    CurrentShift = "B"
+  else
+    CurrentShift = "C"
+  end
+  
+  -- Fetch last Counter value from file
+  Counter = 0
+  fp = io.open("/ffs/data/data.txt", "r")
+  if fp then
+    --Read Counter from file and store in global variable
+    Counter = fp:read() --For Counter Read
+    
+    --Read Last dateMonth From The File
+    FileDateMonth = fp:read()  --For DateMonth Read
+     
+      --Read Shift from file
+    FileShift = fp:read() --For Shift Read
+    
+    
+    local CurrentDateMonth = tostring(CurrentDate)..tostring(CurrentMonth)
+    --if file datemonth are same as current then nothing will happen otherwise reset the Counter
+    if  CurrentDateMonth == tostring(FileDateMonth) then
+      if tostring(FileShift) == tostring(CurrentShift) then
+         
+        if tostring(CurrentShift) == "C" and H > 22  then
+           Counter=0
+           Reset()
+        end
+      else
+        Counter=0
+        Reset()
+      end
+    else
+      if tostring(FileShift) == tostring(CurrentShift) then
+        if CurrentMonth==FileDateMonth:sub(3,4) then
+          if ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) > 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) <-1 then
+            if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+            else
+              Counter=0
+              Reset()
+            end
+          end
+          if (((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == -1)  then
+              if tostring(CurrentShift) == "C" and H < 6  then
+              else
+                Counter=0
+                Reset()
+              end
+          end   
+        else
+           if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+           else
+              Counter=0
+              Reset()
+           end
+       end
+      else
+        Counter=0
+        Reset()
+      end
+    end
+  
+    ---local splitTBL = sa.split(Barcode," ") -- split with space
+    local ModelSplit=""
+    local ModelRead=""
+      ModelRead=fp:read()  --Model1
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model1=ModelSplit[1]
+      Model1Counter=tostring(ModelSplit[2])
+      Model1Name=tostring(ModelSplit[3])
+     
+      if ModelSplit[1] ==tostring(SelectedModel) then
+         Counter=Model1Counter
+         CurrentModelName=Model1Name
+    end
+      ModelRead=fp:read()  --Model2
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model2=ModelSplit[1]
+      Model2Counter=ModelSplit[2]
+      Model2Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model2Counter 
+         CurrentModelName=Model2Name 
+     end
+      ModelRead=fp:read()  --Model3
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model3=ModelSplit[1]
+      Model3Counter=ModelSplit[2]
+      Model3Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model3Counter
+         CurrentModelName=Model3Name
+     end
+      ModelRead=fp:read()  --Model4
+      ModelSplit=sa.split(ModelRead,",")
+    
+      Model4=ModelSplit[1]
+      Model4Counter=ModelSplit[2]
+      Model4Name=tostring(ModelSplit[3])
+     if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model4Counter
+         CurrentModelName=Model4Name
+     end
+      ModelRead=fp:read()  --Model5
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model5=ModelSplit[1]
+      Model5Counter=ModelSplit[2]
+      Model5Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model5Counter
+         CurrentModelName=Model5Name
+     end
+      ModelRead=fp:read()  --Model6
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model6=ModelSplit[1]
+      Model6Counter=ModelSplit[2]
+      Model6Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model6Counter
+         CurrentModelName=Model6Name
+     end
+      ModelRead=fp:read()  --Model7
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model7=ModelSplit[1]
+      Model7Counter=ModelSplit[2]
+      Model7Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model7Counter
+         CurrentModelName=Model7Name
+     end
+      ModelRead=fp:read()  --Model8
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model8=ModelSplit[1]
+      Model8Counter=ModelSplit[2]
+      Model8Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model8Counter
+         CurrentModelName=Model8Name
+     end
+     
+      ModelRead=fp:read()  --Model1
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model9=ModelSplit[1]
+      Model9Counter=tostring(ModelSplit[2])
+      Model9Name=tostring(ModelSplit[3])
+      if ModelSplit[1] ==tostring(SelectedModel) then
+         Counter=Model9Counter
+         CurrentModelName=Model9Name
+    end
+      ModelRead=fp:read()  --Model2
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model10=ModelSplit[1]
+      Model10Counter=ModelSplit[2]
+      Model10Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model10Counter 
+         CurrentModelName=Model10Name
+     end
+      ModelRead=fp:read()  --Model3
+      ModelSplit=sa.split(ModelRead,",")
+      
+      Model11=ModelSplit[1]
+      Model11Counter=ModelSplit[2]
+      Model11Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model11Counter
+         CurrentModelName=Model11Name
+     end
+      ModelRead=fp:read()  --Model4
+      ModelSplit=sa.split(ModelRead,",")
+    
+      Model12=ModelSplit[1]
+      Model12Counter=ModelSplit[2]
+      Model12Name=tostring(ModelSplit[3])
+     if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model12Counter
+         CurrentModelName=Model12Name
+     end
+      ModelRead=fp:read()  --Model5
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model13=ModelSplit[1]
+      Model13Counter=ModelSplit[2]
+      Model13Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model13Counter
+         CurrentModelName=Model13Name
+     end
+      ModelRead=fp:read()  --Model6
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model14=ModelSplit[1]
+      Model14Counter=ModelSplit[2]
+      Model14Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model14Counter
+         CurrentModelName=Model14Name
+     end
+      ModelRead=fp:read()  --Model7
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model15=ModelSplit[1]
+      Model15Counter=ModelSplit[2]
+      Model15Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model15Counter
+         CurrentModelName=Model15Name
+     end
+      ModelRead=fp:read()  --Model8
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model16=ModelSplit[1]
+      Model16Counter=ModelSplit[2]
+      Model16Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model16Counter
+         CurrentModelName=Model16Name
+     end
+     
+      ModelRead=fp:read()  --Model17
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model17=ModelSplit[1]
+      Model17Counter=ModelSplit[2]
+      Model17Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model17Counter
+         CurrentModelName=Model17Name
+     end
+     
+     ModelRead=fp:read()  --Model18
+      ModelSplit=sa.split(ModelRead,",")
+     
+      Model18=ModelSplit[1]
+      Model18Counter=ModelSplit[2]
+      Model18Name=tostring(ModelSplit[3])
+      if ModelSplit[1]==tostring(SelectedModel) then
+         Counter=Model18Counter
+         CurrentModelName=Model18Name
+     end
+    --Read last model from the file if model from the file and selected model is different then reset Counter
+    --local FileModelNo = fp:read()
+    --if FileModelNo == SelectedModel then
+      --nothing will  happen
+    --else
+      --Reset Counter if model change
+      --Counter = 0
+    --end
+     local CurrentDateMonth = tostring(CurrentDate)..tostring(CurrentMonth)
+    --if file datemonth are same as current then nothing will happen otherwise reset the Counter
+    if  CurrentDateMonth == tostring(FileDateMonth) then
+      if tostring(FileShift) == tostring(CurrentShift) then
+        
+        if tostring(CurrentShift) == "C" and H > 22  then
+         
+           Counter=0
+           Reset()
+           
+        end
+         
+      else
+        Counter=0
+        Reset()
+      end
+    else
+      if tostring(FileShift) == tostring(CurrentShift) then
+        if CurrentMonth==FileDateMonth:sub(3,4) then
+          if ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) > 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) <-1 then
+            if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+            else
+              Counter=0
+              Reset()
+            end
+          end
+          if (((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == 1 or ((tonumber(CurrentDate)) - tonumber(FileDateMonth:sub(1,2))) == -1)  then
+              if tostring(CurrentShift) == "C" and H < 6  then
+              else
+                Counter=0
+                Reset()
+              end
+          end   
+        else
+           if tostring(CurrentDate)=="01" and H < 6 and tostring(CurrentShift) == "C" then
+           else
+              Counter=0
+              Reset()
+           end
+       end
+      else
+        Counter=0
+        Reset()
+      end
+    end
+    fp:close()
+  end
+   -- Set flag
+  local SerialType = sa.select ("Select Serial Type ",{"Auto","Manual"},nil,false)
+  if(tostring(SerialType) == "Manual") then
+    IsManualSerial = true
+  else
+    IsManualSerial = false
+  end
+  
+  FirstSinceFmt = true  
+
+end
+]]></function>

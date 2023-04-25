@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns="SA_Config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="SA_Config Settings.xsd">
+<tableMode name="Table mode" type="boolean">true</tableMode>
+<formatMode name="Format mode" type="boolean">true</formatMode>
+<onlineMode name="On-line mode" type="boolean">true</onlineMode>
+</Settings>

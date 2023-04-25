@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<function name="Start" type=""><![CDATA[function()
+  -- Global variables
+  IsManualSerial = false
+  Counter = -1 
+  FirstSinceFmt = true
+  CurrentDate = sa.ldate("%d",date)
+  CurrentMonth = sa.ldate("%m",date)
+  CurrentYear = sa.ldate("%Y",date)
+  CurrentShift = ""
+  CurrentModelName = ""
+  Model1=""
+  Model2=""
+  Model3=""
+  Model4=""
+  Model5=""
+  Model6=""
+  Model7=""
+  Model8=""
+  Model9=""
+  Model10=""
+  Model11=""
+  Model12=""
+  Model13=""
+  Model14=""
+  Model15=""
+  Model16=""
+  Model17=""
+  Model18=""
+  
+  Model1Counter="0"
+  Model2Counter="0"
+  Model3Counter="0"
+  Model4Counter="0"
+  Model5Counter="0"
+  Model6Counter="0"
+  Model7Counter="0"
+  Model8Counter="0"
+  Model9Counter="0"
+  Model10Counter="0"
+  Model11Counter="0"
+  Model12Counter="0"
+  Model13Counter="0"
+  Model14Counter="0"
+  Model15Counter="0"
+  Model16Counter="0"
+  Model17Counter="0"
+  Model18Counter="0"
+  
+  Model1Name=""
+  Model2Name=""
+  Model3Name=""
+  Model4name=""
+  Model5Name=""
+  Model6Name=""
+  Model7name=""
+  Model8Name=""
+  Model9Name=""
+  Model10Name=""
+  Model11Name=""
+  Model12name=""
+  Model13Name=""
+  Model14Name=""
+  Model15name=""
+  Model16Name=""
+  Model17name=""
+  Model18Name=""
+  
+  if H >= 6 and H < 14 then
+    CurrentShift = "A" 
+  elseif H >= 14 and H < 22 then
+    CurrentShift = "B"
+  else
+    CurrentShift = "C"
+  end
+end
+]]></function>

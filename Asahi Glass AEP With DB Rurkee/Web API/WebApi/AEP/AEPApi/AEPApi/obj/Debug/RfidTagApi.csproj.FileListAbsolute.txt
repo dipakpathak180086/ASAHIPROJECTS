@@ -1,0 +1,197 @@
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csprojResolveAssemblyReference.cache
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csproj.CoreCompileInputs.cache
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\RfidTagApi.dll.config
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\RfidTagApi.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\RfidTagApi.pdb
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\csc.exe
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\csc.exe.config
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\csc.rsp
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\csi.exe
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\csi.exe.config
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\csi.rsp
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.AppContext.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Console.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.Compression.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.Pipes.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Claims.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Threading.Thread.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.ValueTuple.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\vbc.exe
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\vbc.exe.config
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\vbc.rsp
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\Newtonsoft.Json.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\System.Net.Http.Formatting.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\System.Web.Http.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\System.Web.Http.WebHost.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\Newtonsoft.Json.xml
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\System.Net.Http.Formatting.xml
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\System.Web.Http.xml
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\bin\System.Web.Http.WebHost.xml
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csproj.CopyComplete
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.dll
+C:\Users\sar.amit.tomar\Desktop\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.pdb
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csproj.CoreCompileInputs.cache
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.pdb
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\RfidTagApi.dll.config
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\RfidTagApi.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\RfidTagApi.pdb
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csc.exe
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csc.exe.config
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csc.rsp
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csi.exe
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csi.exe.config
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csi.rsp
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.AppContext.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Console.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.Process.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.Compression.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.Pipes.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.AccessControl.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Claims.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Threading.Thread.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.ValueTuple.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XPath.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\vbc.exe
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\vbc.exe.config
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\vbc.rsp
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\VBCSCompiler.exe
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\Newtonsoft.Json.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\System.Net.Http.Formatting.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.WebHost.dll
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\Newtonsoft.Json.xml
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\System.Net.Http.Formatting.xml
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.xml
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.WebHost.xml
+D:\Amit\My\Project\New\Rfid Reader\Application\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csproj.CopyComplete
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\RfidTagApi.dll.config
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\RfidTagApi.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\RfidTagApi.pdb
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csc.exe
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csc.exe.config
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csc.rsp
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csi.exe
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csi.exe.config
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\csi.rsp
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.AppContext.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Console.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.Process.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.Compression.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.IO.Pipes.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.AccessControl.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Claims.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Threading.Thread.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.ValueTuple.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XPath.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\vbc.exe
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\vbc.exe.config
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\vbc.rsp
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\VBCSCompiler.exe
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\Newtonsoft.Json.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\System.Net.Http.Formatting.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.WebHost.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\Newtonsoft.Json.xml
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\System.Net.Http.Formatting.xml
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.xml
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\bin\System.Web.Http.WebHost.xml
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csprojAssemblyReference.cache
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csproj.CoreCompileInputs.cache
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.csproj.CopyComplete
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.dll
+D:\Amit\Project\AISIN\Code\WebApi\RfidTagApi\RfidTagApi\obj\Debug\RfidTagApi.pdb

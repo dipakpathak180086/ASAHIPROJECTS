@@ -1,0 +1,29 @@
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\bin\Debug\SatoLib.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\bin\Debug\SATO_PRINTING_COMMON.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\bin\Debug\SATO_PRINTING_COMMON.pdb
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\ASTI_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csprojAssemblyReference.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\SATO_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\SATO_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS - Copy\SATO_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS - Copy\SATO_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS - Copy\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS - Copy\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS - Copy\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\Surgiwear\Code\Surgiwear WMS - Copy\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\bin\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CoreCompileInputs.cache
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csproj.CopyComplete
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.dll
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.pdb
+D:\Akhilesh Kumar\Projects\AIS Glass\AIS GLASS PC APP\SATO_PRINTING_PL\obj\Debug\SATO_PRINTING_PL.csprojAssemblyReference.cache

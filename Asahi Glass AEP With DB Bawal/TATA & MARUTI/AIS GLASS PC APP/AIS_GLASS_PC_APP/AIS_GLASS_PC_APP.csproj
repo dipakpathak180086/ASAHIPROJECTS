@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B953FD26-AD4E-423D-868D-753A1E2EE96E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AIS_GLASS_PC_APP</RootNamespace>
+    <AssemblyName>AIS_GLASS_PC_APP</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AIS_ICO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>2</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AIS_GLASS_BL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AIS_GLASS_BL\bin\Debug\AIS_GLASS_BL.dll</HintPath>
+    </Reference>
+    <Reference Include="AIS_GLASS_COMMON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AIS_GLASS_BL\bin\Debug\AIS_GLASS_COMMON.dll</HintPath>
+    </Reference>
+    <Reference Include="AIS_GLASS_PL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AIS_GLASS_BL\bin\Debug\AIS_GLASS_PL.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.3.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.3\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.1.3.0\lib\net45\FastMember.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="SatoLib, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ASTI_PRINTING_DL\bin\Debug\SatoLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SATOPrinterAPI, Version=2.0.2.5, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ROKIMINDA\Code\SATO_ROKIMINDA\SATO_ROKIMINDA\bin\Debug\SATOPrinterAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.0.1\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.0.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomFunction.cs" />
+    <Compile Include="PrintBarcode.cs" />
+    <Compile Include="SatoPrinter.cs" />
+    <Compile Include="UI\Master\frmPartMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmPartMaster.designer.cs">
+      <DependentUpon>frmPartMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Process\frmBarcodeGeneration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Process\frmBarcodeGeneration.designer.cs">
+      <DependentUpon>frmBarcodeGeneration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Process\frmReopenCompletedPallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Process\frmReopenCompletedPallet.designer.cs">
+      <DependentUpon>frmReopenCompletedPallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Process\frmReportPalletMapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Process\frmReportPalletMapping.designer.cs">
+      <DependentUpon>frmReportPalletMapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Process\frmReportLabelPrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Process\frmReportLabelPrinting.designer.cs">
+      <DependentUpon>frmReportLabelPrinting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmAccessPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmAccessPassword.designer.cs">
+      <DependentUpon>frmAccessPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmMenu.designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmChangePassword.designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmGroupMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmGroupMaster.Designer.cs">
+      <DependentUpon>frmGroupMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmUserMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserManagment\frmUserMaster.designer.cs">
+      <DependentUpon>frmUserMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppsGetUp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\Master\frmPartMaster.resx">
+      <DependentUpon>frmPartMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Process\frmBarcodeGeneration.resx">
+      <DependentUpon>frmBarcodeGeneration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Process\frmReopenCompletedPallet.resx">
+      <DependentUpon>frmReopenCompletedPallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Process\frmReportPalletMapping.resx">
+      <DependentUpon>frmReportPalletMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Process\frmReportLabelPrinting.resx">
+      <DependentUpon>frmReportLabelPrinting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserManagment\frmAccessPassword.resx">
+      <DependentUpon>frmAccessPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserManagment\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserManagment\frmGroupMaster.resx">
+      <DependentUpon>frmGroupMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserManagment\frmUserMaster.resx">
+      <DependentUpon>frmUserMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AIS_ICO.ico" />
+    <Content Include="DLL\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="DLL\SatoLib.dll" />
+    <Content Include="DLL\SATOPrinterAPI.dll" />
+    <Content Include="DLL\SATOPrinterInterface.dll" />
+    <Content Include="Resources\1336028501_001_39.png" />
+    <Content Include="Resources\AISlogo.jpg" />
+    <Content Include="Resources\Category.png" />
+    <Content Include="Resources\Delete.bmp" />
+    <Content Include="Resources\download %281%29.png" />
+    <Content Include="Resources\Export.jpg" />
+    <Content Include="Resources\ExportFileFormat.png" />
+    <Content Include="Resources\Funnel.jpg" />
+    <Content Include="Resources\FunnelImage2.jpg" />
+    <Content Include="Resources\iconfinder_16-web_essential_3401834.png" />
+    <Content Include="Resources\iconfinder_39-Minimize_2123874.png" />
+    <Content Include="Resources\iconfinder_47_cart_shopping_shipping_item_store_4308034.png" />
+    <Content Include="Resources\iconfinder_AB_testing_3380369.png" />
+    <Content Include="Resources\iconfinder_arrow_right_1814085 %281%29.png" />
+    <Content Include="Resources\iconfinder_arrow_right_1814085.png" />
+    <Content Include="Resources\iconfinder_arrow_right_18140851.png" />
+    <Content Include="Resources\iconfinder_change_password_63985.png" />
+    <Content Include="Resources\iconfinder_delete_326606.png" />
+    <Content Include="Resources\iconfinder_document-print_118913.png" />
+    <Content Include="Resources\iconfinder_minus-remove-delete-minimize_2931142.png" />
+    <Content Include="Resources\iconfinder_Profile01_928429.png" />
+    <Content Include="Resources\iconfinder_Save_1493294.png" />
+    <Content Include="Resources\iconfinder_WebInSquare_1.5EXTENDED-19_2557852.png" />
+    <Content Include="Resources\images %281%29.jpg" />
+    <Content Include="Resources\images.png" />
+    <Content Include="Resources\images1.jpg" />
+    <Content Include="Resources\LocationMaster.png" />
+    <Content Include="Resources\login.png" />
+    <Content Include="Resources\MinimizeNew.png" />
+    <Content Include="Resources\Minus.jpg" />
+    <Content Include="Resources\Plus.jpg" />
+    <Content Include="Resources\printer.png" />
+    <Content Include="Resources\Product.png" />
+    <Content Include="Resources\Region.png" />
+    <Content Include="Resources\salesforce-logo-122x86.png" />
+    <Content Include="Resources\SalesTarget.png" />
+    <Content Include="Resources\Save24.jpg" />
+    <Content Include="Resources\Search.jpg" />
+    <Content Include="Resources\Searchb.bmp" />
+    <Content Include="Resources\Status.jpg" />
+    <Content Include="Resources\Transparent Barckground Logo.png" />
+    <Content Include="Resources\Vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ActiveDs">
+      <Guid>{97D25DB0-0363-11CF-ABC4-02608C9E7553}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
