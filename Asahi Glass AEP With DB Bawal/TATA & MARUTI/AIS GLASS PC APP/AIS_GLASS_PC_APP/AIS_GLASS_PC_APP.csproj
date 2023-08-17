@@ -29,7 +29,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -82,7 +82,7 @@
     </Reference>
     <Reference Include="AIS_GLASS_COMMON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AIS_GLASS_BL\bin\Debug\AIS_GLASS_COMMON.dll</HintPath>
+      <HintPath>..\AIS_GLASS_COMMON\bin\Debug\AIS_GLASS_COMMON.dll</HintPath>
     </Reference>
     <Reference Include="AIS_GLASS_PL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

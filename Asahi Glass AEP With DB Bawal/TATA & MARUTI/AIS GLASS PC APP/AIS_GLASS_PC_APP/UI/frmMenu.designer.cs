@@ -266,6 +266,7 @@
             this.lblReportPalletMapping.Size = new System.Drawing.Size(114, 19);
             this.lblReportPalletMapping.TabIndex = 40;
             this.lblReportPalletMapping.Text = "Scanning Report";
+            this.lblReportPalletMapping.Visible = false;
             // 
             // picReportPalletMapping
             // 
@@ -279,13 +280,14 @@
             this.picReportPalletMapping.TabIndex = 39;
             this.picReportPalletMapping.TabStop = false;
             this.picReportPalletMapping.Tag = "101";
+            this.picReportPalletMapping.Visible = false;
             this.picReportPalletMapping.Click += new System.EventHandler(this.picReportPalletMapping_Click);
             // 
             // lblReportLabelPrinting
             // 
             this.lblReportLabelPrinting.AutoSize = true;
             this.lblReportLabelPrinting.Enabled = false;
-            this.lblReportLabelPrinting.Location = new System.Drawing.Point(2, 92);
+            this.lblReportLabelPrinting.Location = new System.Drawing.Point(12, 92);
             this.lblReportLabelPrinting.Name = "lblReportLabelPrinting";
             this.lblReportLabelPrinting.Size = new System.Drawing.Size(98, 19);
             this.lblReportLabelPrinting.TabIndex = 38;

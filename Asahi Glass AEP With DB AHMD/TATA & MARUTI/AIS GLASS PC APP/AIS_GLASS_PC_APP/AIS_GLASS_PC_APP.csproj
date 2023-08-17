@@ -82,11 +82,11 @@
     </Reference>
     <Reference Include="AIS_GLASS_COMMON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AIS_GLASS_BL\bin\Debug\AIS_GLASS_COMMON.dll</HintPath>
+      <HintPath>..\AIS_GLASS_COMMON\bin\Debug\AIS_GLASS_COMMON.dll</HintPath>
     </Reference>
     <Reference Include="AIS_GLASS_PL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AIS_GLASS_BL\bin\Debug\AIS_GLASS_PL.dll</HintPath>
+      <HintPath>..\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
@@ -150,6 +150,12 @@
     <Compile Include="UI\Process\frmReopenCompletedPallet.designer.cs">
       <DependentUpon>frmReopenCompletedPallet.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Process\frmBarcodePrinting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Process\frmBarcodePrinting.designer.cs">
+      <DependentUpon>frmBarcodePrinting.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Process\frmReportPalletMapping.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +214,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Process\frmReopenCompletedPallet.resx">
       <DependentUpon>frmReopenCompletedPallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Process\frmBarcodePrinting.resx">
+      <DependentUpon>frmBarcodePrinting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Process\frmReportPalletMapping.resx">
       <DependentUpon>frmReportPalletMapping.cs</DependentUpon>

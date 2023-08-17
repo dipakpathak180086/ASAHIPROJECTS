@@ -352,34 +352,32 @@ namespace AISCOMServer
 
 
 
-                        #region PALLETMAPPING
-                        case "PALLETMAPPING":
+                        #region Printing Verified
+                        case "PRINTING_VERIFIED":
                             objProc = new clsProcess();
-                            Response = objProc.PALLETMAPPING_ExecuteTask(new PL_Pallet
+                            Response = objProc.PrintingVerified_ExecuteTask(new PL_PrirtingVerified
                             {
                                 DbType = Data[1],
                                 PartNo = Data[2],
-                                WorkOrderNo = Data[3],
-                                PalletNo = Data[4],
-                                ItemBarcode = Data[5],
-                                CreatedBy = Data[6],
+                                ItemBarcode = Data[3],
+                                CreatedBy = Data[4],
                             });
                             objProc = null;
                             break;
-                        #endregion
-
-                        #region STATUS
-                        case "BARCODESTATUS":
+                        case "MANUALLY_VERIFIED":
                             objProc = new clsProcess();
-                            Response = objProc.STATUS_ExecuteTask(new PL_Pallet
+                            Response = objProc.PrintingVerified_ExecuteTask(new PL_PrirtingVerified
                             {
                                 DbType = Data[1],
-                                ItemBarcode = Data[2],
-
+                                PartNo = Data[2],
+                                Remarks = Data[3],
+                                CreatedBy = Data[4],
                             });
                             objProc = null;
                             break;
                         #endregion
+
+
 
                         default:
                             break;

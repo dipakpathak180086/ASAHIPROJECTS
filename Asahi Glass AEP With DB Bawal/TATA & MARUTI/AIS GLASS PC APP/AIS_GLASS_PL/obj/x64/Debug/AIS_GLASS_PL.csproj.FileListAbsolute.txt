@@ -1,0 +1,2 @@
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PL\obj\x64\Debug\AIS_GLASS_PL.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PL\obj\x64\Debug\AIS_GLASS_PL.csproj.CoreCompileInputs.cache

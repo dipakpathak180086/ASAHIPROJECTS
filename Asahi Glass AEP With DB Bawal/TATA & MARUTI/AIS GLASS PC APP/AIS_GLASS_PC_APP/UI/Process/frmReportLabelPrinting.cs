@@ -40,13 +40,31 @@ namespace AIS_GLASS_PC_APP
                 InitializeComponent();
                 _blObj = new BL_REPORT();
                 _plObj = new PL_REPORT();
+                InitGridColumns(dgv);
             }
             catch (Exception ex)
             {
                 GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, ex.Message, 3);
             }
         }
+        protected virtual void InitGridColumns(DataGridView columns)
+        {
+            for (int i = 0; i < dgv.ColumnCount; i++)
+            {
+                this.dgv.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+                //this.dgv.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+                if (dgv.ColumnCount-1 == i)
+                {
+                    this.dgv.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                }
+            }
+        }
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
 
+           
+        }
         private void frmReprinting_Load(object sender, EventArgs e)
         {
             try
@@ -106,10 +124,14 @@ namespace AIS_GLASS_PC_APP
                 if (dtBindGrid.Rows.Count > 0)
                 {
                     dgv.DataSource = dtBindGrid.DefaultView;
-                    dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
-                    lblcount.Text = "Count : " + dtBindGrid.Rows.Count;
 
+                    lblcount.Text = "Count : " + dtBindGrid.Rows.Count;
+                   
+                    InitGridColumns(dgv);
                 }
+               
+                
+
                 else
                 {
                     GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "No Data Found !!!", 2);

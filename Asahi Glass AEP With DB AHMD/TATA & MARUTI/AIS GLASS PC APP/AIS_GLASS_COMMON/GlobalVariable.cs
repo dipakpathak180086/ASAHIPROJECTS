@@ -237,9 +237,9 @@ namespace AIS_GLASS_COMMON
             }
         }
 
-        public static bool ReadLocationPrn()
+        public static bool ReadPartPrn()
         {
-            string _sPrnWithMaster = AppDomain.CurrentDomain.BaseDirectory + "\\Location.PRN";
+            string _sPrnWithMaster = AppDomain.CurrentDomain.BaseDirectory + "\\AIS_PART.PRN";
             string prn = string.Empty;
 
             if (File.Exists(_sPrnWithMaster))
@@ -253,74 +253,7 @@ namespace AIS_GLASS_COMMON
             }
             return true;
         }
-
-        public static bool ReadMachinePrn()
-        {
-            string _sPrnWithMaster = AppDomain.CurrentDomain.BaseDirectory + "\\Machine.PRN";
-            string prn = string.Empty;
-
-            if (File.Exists(_sPrnWithMaster))
-            {
-                StreamReader sr = new StreamReader(_sPrnWithMaster);
-                prn = sr.ReadToEnd();
-                sr.Close();
-                sr.Dispose();
-
-                mPrn = prn;
-            }
-            return true;
-        }
-
-        public static bool ReadRMPrintingPrn()
-        {
-            string _sPrnWithMaster = AppDomain.CurrentDomain.BaseDirectory + "\\RMBarcode.PRN";
-            string prn = string.Empty;
-
-            if (File.Exists(_sPrnWithMaster))
-            {
-                StreamReader sr = new StreamReader(_sPrnWithMaster);
-                prn = sr.ReadToEnd();
-                sr.Close();
-                sr.Dispose();
-
-                mPrn = prn;
-            }
-            return true;
-        }
-
-        public static bool ReadSFPrintingPrn()
-        {
-            string _sPrnWithMaster = AppDomain.CurrentDomain.BaseDirectory + "\\SFBarcode.PRN";
-            string prn = string.Empty;
-
-            if (File.Exists(_sPrnWithMaster))
-            {
-                StreamReader sr = new StreamReader(_sPrnWithMaster);
-                prn = sr.ReadToEnd();
-                sr.Close();
-                sr.Dispose();
-
-                mPrn = prn;
-            }
-            return true;
-        }
-
-        public static bool ReadFGPrintingPrn()
-        {
-            string _sPrnWithMaster = AppDomain.CurrentDomain.BaseDirectory + "\\FGBarcode.PRN";
-            string prn = string.Empty;
-
-            if (File.Exists(_sPrnWithMaster))
-            {
-                StreamReader sr = new StreamReader(_sPrnWithMaster);
-                prn = sr.ReadToEnd();
-                sr.Close();
-                sr.Dispose();
-
-                mPrn = prn;
-            }
-            return true;
-        }
+        
 
     }
 }

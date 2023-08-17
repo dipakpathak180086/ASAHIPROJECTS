@@ -1,0 +1,12 @@
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\AIS_GLASS_BL.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\AIS_GLASS_BL.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\AIS_GLASS_DL.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\AIS_GLASS_PL.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\SatoLib.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\AIS_GLASS_COMMON.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\AIS_GLASS_DL.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\bin\x64\Debug\AIS_GLASS_PL.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\obj\x64\Debug\AIS_GLASS_BL.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\obj\x64\Debug\AIS_GLASS_BL.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\obj\x64\Debug\AIS_GLASS_BL.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_BL\obj\x64\Debug\AIS_GLASS_BL.pdb

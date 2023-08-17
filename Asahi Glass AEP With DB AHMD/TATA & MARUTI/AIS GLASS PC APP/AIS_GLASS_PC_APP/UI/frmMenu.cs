@@ -228,7 +228,10 @@ namespace AIS_GLASS_PC_APP
                             picReopenCompletedPallet.Enabled = true;
                             lblReopenCompletedPallet.Enabled = true;
                             break;
-
+                        case "201":
+                            picBulkPrinting.Enabled = true;
+                            lblBulkPrinting.Enabled = true;
+                            break;
 
                         default:
                             break;
@@ -287,6 +290,14 @@ namespace AIS_GLASS_PC_APP
         private void picReopenCompletedPallet_Click(object sender, EventArgs e)
         {
             frmReopenCompletedPallet frm = new frmReopenCompletedPallet();
+            frm.Show();
+            frm.FormClosing += OFrm_FormClosing;
+            this.Hide();
+        }
+
+        private void picBulkPrinting_Click(object sender, EventArgs e)
+        {
+            frmBarcodePrinting frm = new frmBarcodePrinting();
             frm.Show();
             frm.FormClosing += OFrm_FormClosing;
             this.Hide();

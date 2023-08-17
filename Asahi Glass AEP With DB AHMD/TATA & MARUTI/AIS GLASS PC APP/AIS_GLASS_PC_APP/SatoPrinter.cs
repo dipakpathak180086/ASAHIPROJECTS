@@ -53,48 +53,49 @@ namespace AIS_GLASS_PC_APP
             }
             return status;
         }
-        
 
-        //public void PrintLocation(PL_LocationMaster _PlObj)
-        //{
-        //    //bool IsPrinted = false;
-        //    string sbpl = "";
-        //    try
-        //    {
-        //        if (GlobalVariable.ReadLocationPrn())
-        //        {
-        //            string LenBarcodeLen = _PlObj.LocationCode.Length.ToString();
-        //            sbpl = GlobalVariable.mPrn;
-        //            sbpl = sbpl.Replace("{LocationCode}", _PlObj.LocationCode);
-        //            sbpl = sbpl.Replace("{LocationName}", _PlObj.LocationName);
-        //            sbpl = sbpl.Replace("{LocationType}", _PlObj.LocatonType);
-        //            sbpl = sbpl.Replace("{LenBarcodeLen}", LenBarcodeLen);
-        //            if (GlobalVariable.mPrinterName.Contains("."))
-        //            {
-        //                SatoPrinter satoPrinter = new SatoPrinter();
-        //                byte[] sbplByte = null;
 
-        //                sbplByte = SATOPrinterAPI.Utils.StringToByteArray(sbpl, "UTF8");
+        public void PrintPartBarcode(PL_BarcodePrinting _PlObj)
+        {
+            //bool IsPrinted = false;
+            string sbpl = "";
+            try
+            {
+                if (GlobalVariable.ReadPartPrn())
+                {
+                    sbpl = GlobalVariable.mPrn;
+                    sbpl = sbpl.Replace("{BARCODE}", _PlObj.Barcode);
+                    sbpl = sbpl.Replace("{CUST_PART}", _PlObj.CustomerPartNo);
+                    sbpl = sbpl.Replace("{SR_NO}", _PlObj.SrNo);
+                    sbpl = sbpl.Replace("{SHORT_NAME}", _PlObj.AISPartNo); 
+                    sbpl = sbpl.Replace("{LenBarcodeLen}", "DN" + _PlObj.Barcode.Length.ToString().PadLeft(4, '0'));
+                    if (GlobalVariable.mPrinterName.Contains("."))
+                    {
+                        SatoPrinter satoPrinter = new SatoPrinter();
+                        byte[] sbplByte = null;
 
-        //                satoPrinter.FillTcpPTR(GlobalVariable.mPrinterName, "9100");
-        //                satoPrinter.tcpPrinter.Send(sbplByte);
-                       
-        //            }
-        //            {
-        //               PrintBarcode.PrintCommand(sbpl, GlobalVariable.mPrinterName);
-        //            }
-        //        }
-        //        else
-        //        {
-        //            throw new NoNullAllowedException("Prn File " + GlobalVariable.mPalletPrnFileName + " not found");
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw ex;
-        //    }
+                        sbplByte = SATOPrinterAPI.Utils.StringToByteArray(sbpl, "UTF8");
 
-        //}
+                        satoPrinter.FillTcpPTR(GlobalVariable.mPrinterName, "9100");
+                        satoPrinter.tcpPrinter.Send(sbplByte);
+
+                    }
+                    else
+                    {
+                        PrintBarcode.PrintCommand(sbpl, GlobalVariable.mPrinterName);
+                    }
+                }
+                else
+                {
+                    throw new NoNullAllowedException("Prn File " + GlobalVariable.mPalletPrnFileName + " not found");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
 
         //public void PrintMachine(PL_MachineMaster _PlObj)
         //{
@@ -138,7 +139,7 @@ namespace AIS_GLASS_PC_APP
 
         //}
 
-       
+
         private void FillTcpPTR(string PrinterIP, string PrinterPort)
         {
             try

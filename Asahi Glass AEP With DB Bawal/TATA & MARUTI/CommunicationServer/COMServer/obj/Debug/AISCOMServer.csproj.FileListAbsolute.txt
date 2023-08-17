@@ -30,3 +30,14 @@ D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\Communicatio
 D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CopyComplete
 D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.exe
 D:\Akhilesh Kumar\Projects\AIS Glass\AIS Code\CommServer\Ver1.0.0.0\CommunicationServer\COMServer\obj\Debug\AISCOMServer.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe.config
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\bin\Debug\AISCOMServer.exe
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\bin\Debug\AISCOMServer.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.frmServer.resources
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.Properties.Resources.resources
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.GenerateResource.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.exe
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\CommunicationServer\COMServer\obj\Debug\AISCOMServer.pdb

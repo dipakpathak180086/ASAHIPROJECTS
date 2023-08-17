@@ -1,0 +1,89 @@
+
+[Log Startup at 09:39:32]
+2023-07-13 09:39:32.120 (Info) Server.StartService - SILSocketServer, Ver=1.0.0 Build 0
+2023-07-13 09:39:32.236 (Info) Server.StartService - Starting ClientServices...
+2023-07-13 09:39:32.336 (Info) ClientService.Initialize - Client service pool created for 50 threads.
+2023-07-13 09:39:32.436 (Info) ClientService.Start - Client threads on server: 50.
+2023-07-13 09:39:32.537 (Info) Server.StartService - Create new listener on server...
+2023-07-13 09:39:32.637 (Info) Server.StartService.ThreadStart - Starting listener thread...
+2023-07-13 09:39:32.753 (Info) Server.StartService.ListenerThread - Listener Thread Started successfully on port 9100.
+2023-07-13 09:39:32.853 (Info) Server.Listener.Start - Starting listener...
+2023-07-13 09:39:32.969 (Info) Server.Listener - Server started on port 9100
+2023-07-13 10:01:58.458 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:01:58.574 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:01:58.690 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:01:58.799 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=V_USER~1~1
+2023-07-13 10:01:58.905 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~1~1~Admin
+2023-07-13 10:02:00.604 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:02:00.705 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:02:00.805 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:02:00.921 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~BIND_PART~~~1
+2023-07-13 10:02:01.036 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~MCA BCK#MCA BCK D#ML9 BCK#ML9 BCK D#ML9 DG QTR L#ML9 DG QTR R#ML9 IR WS#ML9 QTR L#ML9 QTR R#ML9 WS#MVL WS
+2023-07-13 10:02:39.489 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:02:39.597 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:02:39.705 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:02:39.806 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~MANUALLY_SAVE~ML9 IR WS~Break~1
+2023-07-13 10:02:39.906 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~Verified Successfully !!!
+2023-07-13 10:02:56.338 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:02:56.438 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:02:56.539 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:02:56.639 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~BIND_PART~ML9 IR WS~~1
+2023-07-13 10:02:56.740 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~MCA BCK#MCA BCK D#ML9 BCK#ML9 BCK D#ML9 DG QTR L#ML9 DG QTR R#ML9 IR WS#ML9 QTR L#ML9 QTR R#ML9 WS#MVL WS
+2023-07-13 10:03:05.176 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:03:05.276 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:03:05.377 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:03:05.477 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~MANUALLY_SAVE~MCA BCK~Ver~1
+2023-07-13 10:03:05.578 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~Verified Successfully !!!
+2023-07-13 10:06:36.150 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:06:36.250 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:06:36.351 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:06:39.748 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:06:39.848 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:06:39.964 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:06:40.064 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~BIND_PART~~~1
+2023-07-13 10:06:40.187 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~MCA BCK#ML9 IR WS
+2023-07-13 10:06:47.714 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:06:47.823 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:06:47.923 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:06:48.039 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~MANUALLY_SAVE~ML9 IR WS~Ver~1
+2023-07-13 10:06:48.161 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~Verified Successfully !!!
+2023-07-13 10:06:53.053 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:06:53.154 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:06:53.254 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:06:53.355 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~MANUALLY_SAVE~ML9 IR WS~ad~1
+2023-07-13 10:06:53.455 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=INVALID~THIS PART IS NOT PEDING TO VERIFED  !!!
+2023-07-13 10:07:02.083 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:07:02.206 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:07:02.306 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:07:02.406 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~MANUALLY_SAVE~ML9 IR WS~as~1
+2023-07-13 10:07:02.507 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~Verified Successfully !!!
+2023-07-13 10:07:04.916 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:07:05.016 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:07:05.117 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:07:05.217 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~BIND_PART~~~1
+2023-07-13 10:07:05.333 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~MCA BCK#ML9 IR WS
+2023-07-13 10:07:10.666 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:07:10.782 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:07:10.882 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:07:10.983 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=MANUALLY_VERIFIED~MANUALLY_SAVE~MCA BCK~aa~1
+2023-07-13 10:07:11.098 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=INVALID~THIS PART IS NOT PEDING TO VERIFED  !!!
+2023-07-13 10:07:14.983 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:07:15.098 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:07:15.199 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:07:15.299 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=PRINTING_VERIFIED~BIND_PART~~~1
+2023-07-13 10:07:15.400 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~MCA BCK#ML9 IR WS
+2023-07-13 10:07:23.928 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:07:24.044 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:07:24.144 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:07:24.244 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=PRINTING_VERIFIED~SAVE~MCA BCK~84051M51U00130723100021AA1440001~1
+2023-07-13 10:07:24.345 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=INVALID~INVALID BARCODE AGAINEST SELECTED PART NO !!!!
+2023-07-13 10:07:27.757 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:07:27.858 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:07:27.958 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:07:28.059 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=PRINTING_VERIFIED~BIND_PART~MCA BCK~~1
+2023-07-13 10:07:28.159 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=VALID~MCA BCK#ML9 IR WS
+2023-07-13 10:07:30.576 (Info) Server.Listener - New client connection detected...
+2023-07-13 10:07:30.677 (Info) ClientHandler.Initialize - Creating new client connection.
+2023-07-13 10:07:30.779 (Info) ClientHandler.Initialize - Connected client : 10.91.6.14
+2023-07-13 10:07:30.893 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Mesg=PRINTING_VERIFIED~SAVE~ML9 IR WS~84051M51U00130723100021AA1440001~1
+2023-07-13 10:07:30.993 (Data) ClientHandler.ProcessData - IP=10.91.6.14 Resp=INVALID~ALREADY VERIFIED !!!

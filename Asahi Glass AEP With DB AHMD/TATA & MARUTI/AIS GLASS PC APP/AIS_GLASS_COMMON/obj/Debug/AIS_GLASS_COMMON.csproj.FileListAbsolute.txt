@@ -26,3 +26,10 @@ D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Baw
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.dll
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.pdb
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_COMMON\bin\Debug\AIS_GLASS_COMMON.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_COMMON\bin\Debug\AIS_GLASS_COMMON.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.csproj.CopyComplete
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_COMMON\obj\Debug\AIS_GLASS_COMMON.pdb

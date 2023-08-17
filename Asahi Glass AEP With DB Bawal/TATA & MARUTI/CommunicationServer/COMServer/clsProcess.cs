@@ -12,8 +12,8 @@ namespace AISCOMServer
         private StringBuilder sb = null;
         private SqlHelper _SqlHelper = new SqlHelper();
 
-        #region PALLET MAPPING
-        public string PALLETMAPPING_ExecuteTask(PL_Pallet obj)
+        #region Printing Verified
+        public string PrintingVerified_ExecuteTask(PL_PrirtingVerified obj)
         {
             _SqlHelper = new SqlHelper();
             try
@@ -22,21 +22,19 @@ namespace AISCOMServer
 
                 param[0] = new SqlParameter("@TYPE", SqlDbType.VarChar, 100);
                 param[0].Value = obj.DbType;
-                param[1] = new SqlParameter("@PartNo", SqlDbType.VarChar, 100);
+                param[1] = new SqlParameter("@PART_NO", SqlDbType.VarChar, 100);
                 param[1].Value = obj.PartNo;
-                param[2] = new SqlParameter("@WorkOrderNo", SqlDbType.VarChar, 100);
-                param[2].Value = obj.WorkOrderNo;
-                param[3] = new SqlParameter("@PalletNo", SqlDbType.VarChar, 100);
-                param[3].Value = obj.PalletNo;
-                param[4] = new SqlParameter("@Barcode", SqlDbType.VarChar, 100);
-                param[4].Value = obj.ItemBarcode;
-                param[5] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 100);
-                param[5].Value = obj.CreatedBy;
+                param[2] = new SqlParameter("@BARCODE", SqlDbType.VarChar, 100);
+                param[2].Value = obj.ItemBarcode;
+                param[3] = new SqlParameter("@REMAKRS", SqlDbType.VarChar, 100);
+                param[3].Value = obj.Remarks;
+                param[4] = new SqlParameter("@CREATED_BY", SqlDbType.VarChar, 100);
+                param[4].Value = obj.CreatedBy;
 
-                DataTable dt = _SqlHelper.ExecuteDataset(Program.mMainSqlConString, CommandType.StoredProcedure, "[PRC_Pallet_Mapping]", param).Tables[0];
+                DataTable dt = _SqlHelper.ExecuteDataset(Program.mMainSqlConString, CommandType.StoredProcedure, "[PRC_PRINTING_VERIFIED]", param).Tables[0];
                 if (dt.Rows.Count > 0)
                 {
-                    if (obj.DbType == "BIND_PARTNO" || obj.DbType == "BIND_VIEW" || obj.DbType == "BIND_TOTAL_AND_SCAN_QTY" || obj.DbType == "VALIDATEPALLET")
+                    if (obj.DbType == "BIND_PART")
                     {
                         oRule.sResponse = clsMsgRule.sValid + "~" + DtToString(dt);
                     }
@@ -45,11 +43,7 @@ namespace AISCOMServer
                         oRule.sResponse = clsMsgRule.sValid + "~" + dt.Rows[0]["MSG"].ToString();
 
                     }
-                    else if (dt.Rows[0]["Result"].ToString() == "PALLETCOMPLETED")
-                    {
-                        oRule.sResponse = "PALLETCOMPLETED" + "~" + dt.Rows[0]["MSG"].ToString();
-
-                    }
+                   
                     else
                     {
                         oRule.sResponse = clsMsgRule.sInValid + "~" + dt.Rows[0]["Result"].ToString();
@@ -73,7 +67,7 @@ namespace AISCOMServer
         #endregion
 
         #region PALLET MAPPING
-        public string STATUS_ExecuteTask(PL_Pallet obj)
+        public string STATUS_ExecuteTask(PL_PrirtingVerified obj)
         {
             _SqlHelper = new SqlHelper();
             try

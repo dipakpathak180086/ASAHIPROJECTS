@@ -59,6 +59,9 @@
             this.picLogOut = new System.Windows.Forms.PictureBox();
             this.timerAutoLogOut = new System.Windows.Forms.Timer(this.components);
             this.timerReOiling = new System.Windows.Forms.Timer(this.components);
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.picBulkPrinting = new System.Windows.Forms.PictureBox();
+            this.lblBulkPrinting = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tbReport.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -73,6 +76,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picChangePassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBulkPrinting)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -93,6 +98,7 @@
             // tbReport
             // 
             this.tbReport.Controls.Add(this.tabPage1);
+            this.tbReport.Controls.Add(this.tabPage2);
             this.tbReport.Controls.Add(this.tabPage3);
             this.tbReport.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbReport.Location = new System.Drawing.Point(0, 0);
@@ -426,6 +432,42 @@
             this.picLogOut.TabStop = false;
             this.picLogOut.Click += new System.EventHandler(this.picLogOut_Click);
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.lblBulkPrinting);
+            this.tabPage2.Controls.Add(this.picBulkPrinting);
+            this.tabPage2.Location = new System.Drawing.Point(4, 28);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1063, 439);
+            this.tabPage2.TabIndex = 3;
+            this.tabPage2.Text = "Printing";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // picBulkPrinting
+            // 
+            this.picBulkPrinting.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picBulkPrinting.Enabled = false;
+            this.picBulkPrinting.Image = global::AIS_GLASS_PC_APP.Properties.Resources.iconfinder_document_print_118913;
+            this.picBulkPrinting.Location = new System.Drawing.Point(32, 15);
+            this.picBulkPrinting.Name = "picBulkPrinting";
+            this.picBulkPrinting.Size = new System.Drawing.Size(100, 100);
+            this.picBulkPrinting.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBulkPrinting.TabIndex = 7;
+            this.picBulkPrinting.TabStop = false;
+            this.picBulkPrinting.Tag = "101";
+            this.picBulkPrinting.Click += new System.EventHandler(this.picBulkPrinting_Click);
+            // 
+            // lblBulkPrinting
+            // 
+            this.lblBulkPrinting.AutoSize = true;
+            this.lblBulkPrinting.Enabled = false;
+            this.lblBulkPrinting.Location = new System.Drawing.Point(38, 118);
+            this.lblBulkPrinting.Name = "lblBulkPrinting";
+            this.lblBulkPrinting.Size = new System.Drawing.Size(91, 19);
+            this.lblBulkPrinting.TabIndex = 8;
+            this.lblBulkPrinting.Text = "Bulk Printing";
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -465,6 +507,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picChangePassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBulkPrinting)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -500,5 +545,8 @@
         private System.Windows.Forms.PictureBox picBarcodeGeneration;
         private System.Windows.Forms.Label lblReopenCompletedPallet;
         private System.Windows.Forms.PictureBox picReopenCompletedPallet;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Label lblBulkPrinting;
+        private System.Windows.Forms.PictureBox picBulkPrinting;
     }
 }

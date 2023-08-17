@@ -116,7 +116,7 @@ namespace AEPApi.Controllers
                     if (dt.Rows[0]["RESULT"].ToString() == "Y")
                     {
                         _objAEP_PRINTING.Barcode = dt.Rows[0]["BARCODE"].ToString();
-                        if (dt.Columns.Count > 2)
+                        if (dt.Columns.Count > 3)
                         {
                             _objAEP_PRINTING.PartName = dt.Rows[0]["PART_NAME"].ToString();
                             _objAEP_PRINTING.SerialNo = dt.Rows[0]["SERIAL_NO"].ToString();
@@ -124,9 +124,14 @@ namespace AEPApi.Controllers
                         }
                         _objAEP_PRINTING.Response = "Y";
                         _objAEP_PRINTING.ErrorMessage = "";
+                        _objAEP_PRINTING.Msg = dt.Rows[0]["MSG"].ToString();
                     }
                     else
                     {
+                        //Commneted by dipak pathak 07-07-23 for printing and verified on selected part only
+                        //_objAEP_PRINTING.Response = "N";
+                        //_objAEP_PRINTING.ErrorMessage = "Data Not Saved";
+
                         _objAEP_PRINTING.Response = "N";
                         _objAEP_PRINTING.ErrorMessage = "Data Not Saved";
                     }

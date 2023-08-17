@@ -67,6 +67,7 @@
     <Compile Include="Master\PL_PART_MASTER.cs" />
     <Compile Include="Master\PL_USER_MASTER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transcation\PL_BarcodePrinting.cs" />
     <Compile Include="Transcation\PL_ReopenCompletedPallet.cs" />
     <Compile Include="Transcation\PL_REPORT.cs" />
     <Compile Include="Transcation\PL_BarcodeGeneration.cs" />

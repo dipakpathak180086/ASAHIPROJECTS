@@ -16,11 +16,10 @@
 
 
     #region Picking
-    public class PL_Pallet : Common
+    public class PL_PrirtingVerified : Common
     {
         public string PartNo { get; set; }
-        public string WorkOrderNo { get; set; }
-        public string PalletNo { get; set; }
+        public string Remarks { get; set; }
         public string ItemBarcode { get; set; }
         public string LineNo { get; set; }
 

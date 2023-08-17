@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReportLabelPrinting));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnMini = new System.Windows.Forms.Button();
@@ -46,15 +47,15 @@
             this.lblHeader = new System.Windows.Forms.Label();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dgv = new System.Windows.Forms.DataGridView();
+            this.lblcount = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblcount = new System.Windows.Forms.Label();
+            this.dgv = new System.Windows.Forms.DataGridView();
             this.gbPrintingParameter.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
             // btnReset
@@ -311,43 +312,23 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.lblcount);
             this.panel1.Controls.Add(this.dgv);
+            this.panel1.Controls.Add(this.lblcount);
             this.panel1.Controls.Add(this.gbPrintingParameter);
             this.panel1.Location = new System.Drawing.Point(4, 42);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1194, 461);
             this.panel1.TabIndex = 213;
             // 
-            // dgv
+            // lblcount
             // 
-            this.dgv.AllowUserToAddRows = false;
-            this.dgv.AllowUserToDeleteRows = false;
-            this.dgv.AllowUserToResizeRows = false;
-            this.dgv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgv.BackgroundColor = System.Drawing.Color.AliceBlue;
-            this.dgv.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
-            this.dgv.EnableHeadersVisualStyles = false;
-            this.dgv.GridColor = System.Drawing.Color.AliceBlue;
-            this.dgv.Location = new System.Drawing.Point(5, 133);
-            this.dgv.MultiSelect = false;
-            this.dgv.Name = "dgv";
-            this.dgv.ReadOnly = true;
-            this.dgv.RowHeadersVisible = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv.Size = new System.Drawing.Size(1174, 281);
-            this.dgv.StandardTab = true;
-            this.dgv.TabIndex = 194;
-            this.dgv.TabStop = false;
+            this.lblcount.AutoSize = true;
+            this.lblcount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcount.Location = new System.Drawing.Point(7, 109);
+            this.lblcount.Name = "lblcount";
+            this.lblcount.Size = new System.Drawing.Size(70, 19);
+            this.lblcount.TabIndex = 212;
+            this.lblcount.Text = "Count : 0";
             // 
             // label5
             // 
@@ -371,15 +352,42 @@
             this.pictureBox1.TabIndex = 262;
             this.pictureBox1.TabStop = false;
             // 
-            // lblcount
+            // dgv
             // 
-            this.lblcount.AutoSize = true;
-            this.lblcount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcount.Location = new System.Drawing.Point(7, 109);
-            this.lblcount.Name = "lblcount";
-            this.lblcount.Size = new System.Drawing.Size(70, 19);
-            this.lblcount.TabIndex = 212;
-            this.lblcount.Text = "Count : 0";
+            this.dgv.AllowUserToAddRows = false;
+            this.dgv.AllowUserToDeleteRows = false;
+            this.dgv.AllowUserToResizeRows = false;
+            this.dgv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.dgv.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Garamond", 12.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
+            this.dgv.EnableHeadersVisualStyles = false;
+            this.dgv.GridColor = System.Drawing.Color.AliceBlue;
+            this.dgv.Location = new System.Drawing.Point(7, 131);
+            this.dgv.MultiSelect = false;
+            this.dgv.Name = "dgv";
+            this.dgv.RowHeadersVisible = false;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.dgv.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv.Size = new System.Drawing.Size(1178, 319);
+            this.dgv.StandardTab = true;
+            this.dgv.TabIndex = 213;
+            this.dgv.TabStop = false;
             // 
             // frmReportLabelPrinting
             // 
@@ -404,8 +412,8 @@
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -429,9 +437,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnExport;
-        private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmbPartNo;
         private System.Windows.Forms.Label lblcount;
+        private System.Windows.Forms.DataGridView dgv;
     }
 }

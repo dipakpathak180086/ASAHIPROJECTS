@@ -76,6 +76,7 @@
     <Compile Include="Master\DL_PART_MASTER.cs" />
     <Compile Include="Master\DL_USER_MASTER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transcation\DL_BarcodePrinting.cs" />
     <Compile Include="Transcation\DL_ReopenCompletedPallet.cs" />
     <Compile Include="Transcation\DL_REPORT.cs" />
     <Compile Include="Transcation\DL_BarcodeGeneration.cs" />
