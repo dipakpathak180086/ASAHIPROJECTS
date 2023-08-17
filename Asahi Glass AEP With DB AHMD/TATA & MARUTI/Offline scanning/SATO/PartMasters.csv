@@ -1,3 +1,2 @@
-PartNo,Start_Index_Of_Part_In_Barcode,End_Index_Of_Part_In_Barcode
-84501M53T00,0,11
-84501M53T00,0,11
+Short_Part_No,PartNo,Start_Index_Of_Part_In_Barcode,End_Index_Of_Part_In_Barcode
+BCK,84501M53T00,0,11

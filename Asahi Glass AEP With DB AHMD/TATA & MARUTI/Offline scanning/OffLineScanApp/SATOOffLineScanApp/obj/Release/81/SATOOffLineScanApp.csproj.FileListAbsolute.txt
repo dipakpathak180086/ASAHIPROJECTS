@@ -1,0 +1,176 @@
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.SATOOffLineScanApp.apk
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.SATOOffLineScanApp-Signed.apk
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.nuget.stamp
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.csprojAssemblyReference.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\libraryimports.cache.stamp
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res.flag
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.csproj.CoreCompileInputs.cache
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\bin\SATOOffLineScanApp.SATOOffLineScanApp.apk
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_main.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\colors.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\ic_launcher_background.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\strings.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\styles.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-anydpi-v26\ic_launcher.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-hdpi\ic_launcher.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-hdpi\ic_launcher_round.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-mdpi\ic_launcher.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-mdpi\ic_launcher_round.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xhdpi\ic_launcher.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xhdpi\ic_launcher_round.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxhdpi\ic_launcher.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxhdpi\ic_launcher_round.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxxhdpi\ic_launcher.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxxhdpi\ic_launcher_round.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\raw\beep.mp3
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\spiner.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_login.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\common_edittext.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_dashboard_black_24dp.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_home_black_24dp.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_launcher_background.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_notifications_black_24dp.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\dimens.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\sato_logo.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\common_edittext_readonly.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_header.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\borderstyle.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\surgiwear_logo.jpg
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_palletmapping.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\nenimemi_logo.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\bordered_rect_background.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\bridgestone.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\view_case_item.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\acivitybarcode.xml
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\asahiindia.png
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\R.cs.flag
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\R.txt
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\uploadflags.txt
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\Mono.Android.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\Mono.Security.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\mscorlib.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Core.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Data.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Net.Http.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Numerics.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Runtime.Serialization.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.ServiceModel.Internals.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Transactions.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Xml.Linq.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Xml.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\Mono.Android.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\mscorlib.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Core.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Data.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Xml.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Xml.Linq.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Net.Http.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Runtime.Serialization.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.ServiceModel.Internals.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Numerics.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Transactions.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\Mono.Security.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\Offline scanning\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\SATOOffLineScanApp.dll.mdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\libraryimports.cache.stamp
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res.flag
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.dll
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.SATOOffLineScanApp.apk
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.SATOOffLineScanApp-Signed.apk
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.nuget.stamp
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.csprojAssemblyReference.cache
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.csproj.CoreCompileInputs.cache
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.dll
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\SATOOffLineScanApp.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\bin\SATOOffLineScanApp.SATOOffLineScanApp.apk
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_main.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\colors.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\ic_launcher_background.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\strings.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\styles.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-anydpi-v26\ic_launcher.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-anydpi-v26\ic_launcher_round.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-hdpi\ic_launcher.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-hdpi\ic_launcher_round.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-mdpi\ic_launcher.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-mdpi\ic_launcher_round.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xhdpi\ic_launcher.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xhdpi\ic_launcher_round.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxhdpi\ic_launcher.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxhdpi\ic_launcher_round.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxxhdpi\ic_launcher.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\mipmap-xxxhdpi\ic_launcher_round.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\raw\beep.mp3
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\spiner.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_login.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\common_edittext.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_dashboard_black_24dp.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_home_black_24dp.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_launcher_background.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\ic_notifications_black_24dp.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\values\dimens.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\sato_logo.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\common_edittext_readonly.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_header.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\borderstyle.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\surgiwear_logo.jpg
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\activity_palletmapping.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\nenimemi_logo.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\bordered_rect_background.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\bridgestone.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\view_case_item.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\layout\acivitybarcode.xml
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\res\drawable\asahiindia.png
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\R.cs.flag
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\R.txt
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\uploadflags.txt
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\Mono.Android.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\Mono.Security.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\mscorlib.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Core.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Data.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Net.Http.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Numerics.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Runtime.Serialization.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.ServiceModel.Internals.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Transactions.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Xml.Linq.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\System.Xml.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\Mono.Android.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\mscorlib.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Core.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Data.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Xml.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Xml.Linq.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Net.Http.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Runtime.Serialization.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.ServiceModel.Internals.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Numerics.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\System.Transactions.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\Mono.Security.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\SATOOffLineScanApp.dll.mdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.dll.mdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\SATOOffLineScanApp.dll.mdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\Mono.Android.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\Mono.Security.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\mscorlib.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\System.Core.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\System.Data.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\System.Net.Http.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\System.Numerics.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\System.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\System.Runtime.Serialization.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\android\assets\System.Xml.pdb
+D:\OffLineScanApp\SATOOffLineScanApp\bin\Release\SATOOffLineScanApp.dll
+D:\OffLineScanApp\SATOOffLineScanApp\obj\Release\81\linksrc\SATOOffLineScanApp.dll.mdb
