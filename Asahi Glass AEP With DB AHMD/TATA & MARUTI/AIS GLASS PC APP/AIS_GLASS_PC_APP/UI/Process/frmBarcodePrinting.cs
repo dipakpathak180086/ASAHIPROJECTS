@@ -125,31 +125,38 @@ namespace AIS_GLASS_PC_APP
                 _plObj.CreatedBy = GlobalVariable.UserName;
                 Cursor.Current = Cursors.WaitCursor;
                 SatoPrinter printer = new SatoPrinter();
-                ;
-                if (!printer.GetprinterStatus().Contains("OK_"))
-                {
-                    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Printer is offline!!!", 3);
-                    Cursor.Current = Cursors.Default;
-                    return;
-                }
+                //;
+                //if (!printer.GetprinterStatus().Contains("OK_"))
+                //{
+                //    GlobalVariable.mStoCustomFunction.setMessageBox(GlobalVariable.mSatoApps, "Printer is offline!!!", 3);
+                //    Cursor.Current = Cursors.Default;
+                //    return;
+                //}
                 int iCounter = 0;
+                DataTable dtBind = new DataTable();
+                dtBind.Columns.Add("Barcode");
                 for (int i = 1; i <= Convert.ToInt32(txtEnterQty.Text.Trim()); i++)
                 {
                     dtBindGrid = _blObj.BL_ExecuteTask(_plObj);
                     if (dtBindGrid.Rows.Count > 0)
                     {
-                        DataTable dtFinal = dtBindGrid.AsDataView().ToTable(true, "Barcode");
-                        _plObj.Barcode = dtFinal.Rows[0]["BARCODE"].ToString();
-                       
+                        //DataTable dtFinal = dtBindGrid.AsDataView().ToTable(true, "Barcode");
+                        _plObj.Barcode = dtBindGrid.Rows[0]["BARCODE"].ToString();
+                        _plObj.SrNo = dtBindGrid.Rows[0]["SERIAL_NO"].ToString();
+
                         printer.PrintPartBarcode(_plObj);
-                        dgv.DataSource = dtFinal.DefaultView;
-                        dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
+                        DataRow dr = dtBind.NewRow();
+                        dr[0] = _plObj.Barcode;
+                        dtBind.Rows.Add(dr);
+                       
                       
                     }
                     iCounter = iCounter + 1;
                     lblPrintCounter.Text = iCounter + "/" + txtEnterQty.Text.Trim();
                     Application.DoEvents();
                 }
+                dgv.DataSource = dtBind.DefaultView;
+                dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
                 Cursor.Current = Cursors.Default;
 
             }

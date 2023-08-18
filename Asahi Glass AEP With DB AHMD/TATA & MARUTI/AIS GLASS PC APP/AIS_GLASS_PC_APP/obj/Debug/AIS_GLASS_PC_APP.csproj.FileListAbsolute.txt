@@ -241,3 +241,4 @@ D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHM
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\obj\Debug\AIS_GLASS_PC_APP.csproj.CopyComplete
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\obj\Debug\AIS_GLASS_PC_APP.exe
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\obj\Debug\AIS_GLASS_PC_APP.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB AHMD\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\bin\Debug\SATOPrinterAPI.dll

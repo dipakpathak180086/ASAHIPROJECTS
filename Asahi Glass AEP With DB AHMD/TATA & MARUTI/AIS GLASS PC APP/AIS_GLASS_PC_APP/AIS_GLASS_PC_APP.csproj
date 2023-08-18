@@ -102,9 +102,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\ASTI_PRINTING_DL\bin\Debug\SatoLib.dll</HintPath>
     </Reference>
-    <Reference Include="SATOPrinterAPI, Version=2.0.2.5, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="SATOPrinterAPI, Version=3.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\ROKIMINDA\Code\SATO_ROKIMINDA\SATO_ROKIMINDA\bin\Debug\SATOPrinterAPI.dll</HintPath>
+      <HintPath>DLL\86x\SATOPrinterAPI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
