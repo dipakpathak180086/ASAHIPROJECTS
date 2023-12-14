@@ -240,3 +240,4 @@ D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Baw
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\obj\Debug\AIS_GLASS_PC_APP.exe
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\obj\Debug\AIS_GLASS_PC_APP.pdb
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\bin\Debug\AIS_GLASS_COMMON.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_PC_APP\obj\Debug\AIS_GLASS_PC_APP.frmActivePartMaster.resources

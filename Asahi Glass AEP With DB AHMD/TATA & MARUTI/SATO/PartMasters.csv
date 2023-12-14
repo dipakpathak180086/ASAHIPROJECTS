@@ -1,2 +1,2 @@
-PartNo,Start_Index_Of_Part_In_Barcode,End_Index_Of_Part_In_Barcode
-84501M55T00,5,11
+PartName,PartNo,Start_Index_Of_Part_In_Barcode,End_Index_Of_Part_In_Barcode
+MCA BCK,84502M62S00,5,11

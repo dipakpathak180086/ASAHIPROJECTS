@@ -53,9 +53,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\AIS_GLASS_DL\bin\Debug\AIS_GLASS_DL.dll</HintPath>
     </Reference>
-    <Reference Include="AIS_GLASS_PL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AIS_GLASS_DL\bin\Debug\AIS_GLASS_PL.dll</HintPath>
+    <Reference Include="AIS_GLASS_PL">
+      <HintPath>..\AIS_GLASS_PL\bin\Debug\AIS_GLASS_PL.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -67,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Master\BL_ACTIVE_PART_MASTER.cs" />
     <Compile Include="Master\BL_GROUP_MASTER.cs" />
     <Compile Include="Master\BL_PART_MASTER.cs" />
     <Compile Include="Master\BL_USER_MASTER.cs" />

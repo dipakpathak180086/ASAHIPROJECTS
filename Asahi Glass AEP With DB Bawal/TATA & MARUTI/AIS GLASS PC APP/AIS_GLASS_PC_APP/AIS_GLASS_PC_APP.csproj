@@ -138,6 +138,12 @@
     <Compile Include="UI\Master\frmPartMaster.designer.cs">
       <DependentUpon>frmPartMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Master\frmActivePartMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Master\frmActivePartMaster.designer.cs">
+      <DependentUpon>frmActivePartMaster.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Process\frmBarcodeGeneration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="UI\Master\frmPartMaster.resx">
       <DependentUpon>frmPartMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Master\frmActivePartMaster.resx">
+      <DependentUpon>frmActivePartMaster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Process\frmBarcodeGeneration.resx">
       <DependentUpon>frmBarcodeGeneration.cs</DependentUpon>

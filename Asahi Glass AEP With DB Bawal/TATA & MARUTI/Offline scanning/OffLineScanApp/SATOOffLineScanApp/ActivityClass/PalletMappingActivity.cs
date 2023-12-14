@@ -24,6 +24,7 @@ namespace SATOOffLineScanApp
     public class PalletMappingActivity : AppCompatActivity
     {
         List<ScanCaseModel> _listScanCase;
+        Dictionary<string, string> _dic = new Dictionary<string, string>();
         ListView listViewScanCase;
         ArrayAdapter<string> adapter = null;
         List<string> lst = null;
@@ -118,13 +119,13 @@ namespace SATOOffLineScanApp
                 {
                     _listScanCase.Clear();
                     GetBarcode();
-                  
+
                     foreach (DataRow row in dt.Rows)
                     {
                         if (row[0].ToString() == spinnerPickListNo.SelectedItem.ToString().Trim().ToString())
                         {
-                            FromPos = Convert.ToInt32(row[1].ToString());
-                            ToPos = Convert.ToInt32(row[2].ToString());
+                            FromPos = Convert.ToInt32(row[2].ToString());
+                            ToPos = Convert.ToInt32(row[3].ToString());
                             editItemBarcode.Enabled = true;
                             editItemBarcode.Text = "";
                             editItemBarcode.RequestFocus();
@@ -156,6 +157,7 @@ namespace SATOOffLineScanApp
         {
             try
             {
+                _dic.Clear();
                 if (File.Exists(Path.Combine(clsGlobal.FilePath, "PartMasters.csv")))
                 {
                     dt = clsGlobal.ConvertCsvToDataTable(Path.Combine(clsGlobal.FilePath, "PartMasters.csv"));
@@ -167,6 +169,7 @@ namespace SATOOffLineScanApp
                         {
                             for (int i = 0; i < dt.Rows.Count; i++)
                             {
+                                _dic.Add(dt.Rows[i][0].ToString().Trim().ToString(), dt.Rows[i][1].ToString().Trim().ToString());
                                 lst.Add(dt.Rows[i][0].ToString().Trim().ToString());
                             }
                             BindCombo(spinnerPickListNo, lst);
@@ -202,13 +205,13 @@ namespace SATOOffLineScanApp
                     if (dtBarcode.Rows.Count > 0)
                     {
                         _listScanCase.Clear();
-                        string expression = "[Part No.] = '" + spinnerPickListNo.SelectedItem.ToString().Trim().ToString() + "' ";
+                        string expression = "[Part No.] = '" + _dic[spinnerPickListNo.SelectedItem.ToString().Trim().ToString()] + "' ";
                         string sortOrder = "[Scanned On] DESC";
                         DataView dv = new DataView(dtBarcode, expression, sortOrder, DataViewRowState.CurrentRows);
                         DataTable new_table = dv.ToTable("NewTableName");
                         if (new_table.Rows.Count > 10)
                         {
-                            for (int i = 0; i <=10; i++)
+                            for (int i = 0; i <= 10; i++)
                             {
                                 _listScanCase.Add(new ScanCaseModel(new_table.Rows[i]["Part No."].ToString().Trim().ToString(), new_table.Rows[i]["Barcode"].ToString().Trim().ToString(), "OK"));
                             }
@@ -287,7 +290,7 @@ namespace SATOOffLineScanApp
                     editItemBarcode.RequestFocus();
                     return;
                 }
-                else if(editItemBarcode.Text.Trim() == "" || editItemBarcode.Text.Trim().Length > 40 || editItemBarcode.Text.Trim().Length < 11)
+                else if (editItemBarcode.Text.Trim() == "" || editItemBarcode.Text.Trim().Length > 40 || editItemBarcode.Text.Trim().Length < 11)
                 {
                     StartPlayingSound();
                     ShowMessageBox("Please Scan valid Barcode", this);
@@ -296,7 +299,7 @@ namespace SATOOffLineScanApp
                     return;
                 }
 
-                else if ((editItemBarcode.Text.Trim().Substring(FromPos, ToPos)) != (spinnerPickListNo.SelectedItem.ToString().Trim().ToString()))
+                else if ((editItemBarcode.Text.Trim().Substring(FromPos, ToPos)) != (_dic[spinnerPickListNo.SelectedItem.ToString().Trim().ToString()]))
                 {
                     StartPlayingSound();
                     ShowMessageBox("Invalid barcode scan against select part", this);
@@ -305,7 +308,7 @@ namespace SATOOffLineScanApp
                     return;
                 }
 
-                else if((clsGlobal.dictionary.ContainsKey(editItemBarcode.Text.Trim())) || clsGlobal.dictionary.ContainsValue(editItemBarcode.Text.Trim()))
+                else if ((clsGlobal.dictionary.ContainsKey(editItemBarcode.Text.Trim())) || clsGlobal.dictionary.ContainsValue(editItemBarcode.Text.Trim()))
                 {
                     StartPlayingSound();
                     ShowMessageBox("Barcode already scanned", this);
@@ -319,15 +322,15 @@ namespace SATOOffLineScanApp
                     {
                         firstSevenChar = editItemBarcode.Text.Trim().Substring(FromPos, ToPos);
 
-                        if (firstSevenChar == spinnerPickListNo.SelectedItem.ToString().Trim().ToString())
+                        if (firstSevenChar == _dic[spinnerPickListNo.SelectedItem.ToString().Trim().ToString()])
                         {
                             clsGlobal.dictionary.Add(editItemBarcode.Text.Trim(), editItemBarcode.Text.Trim());
-                            clsGlobal.WriteFile(clsGlobal.UserId, spinnerPickListNo.SelectedItem.ToString().Trim().ToString(), editItemBarcode.Text.Trim());
+                            clsGlobal.WriteFile(clsGlobal.UserId, _dic[spinnerPickListNo.SelectedItem.ToString().Trim().ToString()], editItemBarcode.Text.Trim());
 
                             MediaScannerConnection.ScanFile(this, new String[] { Path.Combine(clsGlobal.FilePath, DateTime.Now.ToString("ddMMyy") + clsGlobal.FileName) }, null, null);
-                           
 
-                            _listScanCase.Add(new ScanCaseModel(spinnerPickListNo.SelectedItem.ToString().Trim().ToString(), editItemBarcode.Text,"OK"));
+
+                            _listScanCase.Add(new ScanCaseModel(_dic[spinnerPickListNo.SelectedItem.ToString().Trim().ToString()], editItemBarcode.Text, "OK"));
                             listViewScanCase.Adapter = new CaseItemAdapter(this, _listScanCase);
 
                             txtScanQty.Text = "Scan Qty : " + _listScanCase.Count().ToString();

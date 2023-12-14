@@ -480,11 +480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Live Project\\New Project\\Asahi Glass AEP\\Asahi Glass AEP With DB Bawal\\TATA & MARUTI\\Offline scanning\\OffLineScanApp\\SATOOffLineScanApp\\SATOOffLineScanApp.csproj",
+      "projectUniqueName": "D:\\OffLineScanApp\\SATOOffLineScanApp\\SATOOffLineScanApp.csproj",
       "projectName": "SATOOffLineScanApp",
-      "projectPath": "D:\\Projects\\Live Project\\New Project\\Asahi Glass AEP\\Asahi Glass AEP With DB Bawal\\TATA & MARUTI\\Offline scanning\\OffLineScanApp\\SATOOffLineScanApp\\SATOOffLineScanApp.csproj",
+      "projectPath": "D:\\OffLineScanApp\\SATOOffLineScanApp\\SATOOffLineScanApp.csproj",
       "packagesPath": "C:\\Users\\sar.dipak.pathak\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Live Project\\New Project\\Asahi Glass AEP\\Asahi Glass AEP With DB Bawal\\TATA & MARUTI\\Offline scanning\\OffLineScanApp\\SATOOffLineScanApp\\obj\\",
+      "outputPath": "D:\\OffLineScanApp\\SATOOffLineScanApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

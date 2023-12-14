@@ -59,6 +59,8 @@
             this.picLogOut = new System.Windows.Forms.PictureBox();
             this.timerAutoLogOut = new System.Windows.Forms.Timer(this.components);
             this.timerReOiling = new System.Windows.Forms.Timer(this.components);
+            this.lblOfflineActivePart = new System.Windows.Forms.Label();
+            this.picOfflineActivePart = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.tbReport.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -73,6 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picChangePassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOfflineActivePart)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -103,6 +106,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.lblOfflineActivePart);
+            this.tabPage1.Controls.Add(this.picOfflineActivePart);
             this.tabPage1.Controls.Add(this.lblReopenCompletedPallet);
             this.tabPage1.Controls.Add(this.picReopenCompletedPallet);
             this.tabPage1.Controls.Add(this.lblBarcodeGeneration);
@@ -428,6 +433,30 @@
             this.picLogOut.TabStop = false;
             this.picLogOut.Click += new System.EventHandler(this.picLogOut_Click);
             // 
+            // lblOfflineActivePart
+            // 
+            this.lblOfflineActivePart.AutoSize = true;
+            this.lblOfflineActivePart.Enabled = false;
+            this.lblOfflineActivePart.Location = new System.Drawing.Point(11, 255);
+            this.lblOfflineActivePart.Name = "lblOfflineActivePart";
+            this.lblOfflineActivePart.Size = new System.Drawing.Size(152, 19);
+            this.lblOfflineActivePart.TabIndex = 11;
+            this.lblOfflineActivePart.Text = "Offline Part Activation";
+            // 
+            // picOfflineActivePart
+            // 
+            this.picOfflineActivePart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picOfflineActivePart.Enabled = false;
+            this.picOfflineActivePart.Image = ((System.Drawing.Image)(resources.GetObject("picOfflineActivePart.Image")));
+            this.picOfflineActivePart.Location = new System.Drawing.Point(36, 152);
+            this.picOfflineActivePart.Name = "picOfflineActivePart";
+            this.picOfflineActivePart.Size = new System.Drawing.Size(100, 100);
+            this.picOfflineActivePart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picOfflineActivePart.TabIndex = 10;
+            this.picOfflineActivePart.TabStop = false;
+            this.picOfflineActivePart.Tag = "101";
+            this.picOfflineActivePart.Click += new System.EventHandler(this.picOfflineActivePart_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -467,6 +496,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picChangePassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogOut)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOfflineActivePart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -502,5 +532,7 @@
         private System.Windows.Forms.PictureBox picBarcodeGeneration;
         private System.Windows.Forms.Label lblReopenCompletedPallet;
         private System.Windows.Forms.PictureBox picReopenCompletedPallet;
+        private System.Windows.Forms.Label lblOfflineActivePart;
+        private System.Windows.Forms.PictureBox picOfflineActivePart;
     }
 }

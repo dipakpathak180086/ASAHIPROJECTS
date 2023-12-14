@@ -49,8 +49,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AIS_GLASS_COMMON">
-      <HintPath>..\SATO_PRINTING_COMMON\bin\Debug\AIS_GLASS_COMMON.dll</HintPath>
+    <Reference Include="AIS_GLASS_COMMON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AIS_GLASS_COMMON\bin\Debug\AIS_GLASS_COMMON.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -62,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Master\PL_ACTIVE_PART_MASTER.cs" />
     <Compile Include="Master\PL_GROUP_MASTER.cs" />
     <Compile Include="Master\PL_GROUP_RIGHTS.cs" />
     <Compile Include="Master\PL_PART_MASTER.cs" />

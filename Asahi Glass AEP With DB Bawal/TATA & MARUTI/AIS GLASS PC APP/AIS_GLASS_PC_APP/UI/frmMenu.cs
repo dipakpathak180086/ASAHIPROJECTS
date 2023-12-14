@@ -228,7 +228,10 @@ namespace AIS_GLASS_PC_APP
                             picReopenCompletedPallet.Enabled = true;
                             lblReopenCompletedPallet.Enabled = true;
                             break;
-
+                        case "108":
+                            picOfflineActivePart.Enabled = true;
+                            lblOfflineActivePart.Enabled = true;
+                            break;
 
                         default:
                             break;
@@ -289,6 +292,14 @@ namespace AIS_GLASS_PC_APP
             frmReopenCompletedPallet frm = new frmReopenCompletedPallet();
             frm.Show();
             frm.FormClosing += OFrm_FormClosing;
+            this.Hide();
+        }
+
+        private void picOfflineActivePart_Click(object sender, EventArgs e)
+        {
+            frmActivePartMaster frm = new frmActivePartMaster();
+            frm.ShowDialog();
+           // frm.FormClosing += OFrm_FormClosing;
             this.Hide();
         }
     }

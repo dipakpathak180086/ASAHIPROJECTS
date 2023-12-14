@@ -46,3 +46,5 @@ D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Baw
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_DL\obj\Debug\AIS_GLASS_DL.csproj.CopyComplete
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_DL\obj\Debug\AIS_GLASS_DL.dll
 D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_DL\obj\Debug\AIS_GLASS_DL.pdb
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_DL\bin\Debug\AIS_GLASS_COMMON.dll
+D:\Projects\Live Project\New Project\Asahi Glass AEP\Asahi Glass AEP With DB Bawal\TATA & MARUTI\AIS GLASS PC APP\AIS_GLASS_DL\bin\Debug\AIS_GLASS_COMMON.pdb
